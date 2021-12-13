@@ -1,0 +1,34 @@
+{
+    "artificialDelayMilliseconds": 500,
+    "keepExistingTerminalsOpen": false,
+    "runOnStartup": true,
+    "terminals": [
+      {
+        "splitTerminals": [
+          {
+            "name": "build",
+            "commands": ["source setup-environment build-wayland/"]
+          }
+        ]
+      },
+      
+      {
+        "splitTerminals": [
+          {
+            "name": "uuu",
+            "commands": ["cd build-wayland/tmp/deploy"]
+          }
+        ]
+      },
+
+      {
+        "splitTerminals": [
+          {
+            "name": "meta-imx8mmdev",
+            "commands": ["cd sources/meta-imx8mmdev/", "git status"]
+          }
+        ]
+      }
+    ]
+  }
+  
