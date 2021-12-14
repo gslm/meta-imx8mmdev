@@ -1,43 +1,59 @@
-# meta-imx8mmdev
 
-This README file contains information on the contents of the meta-imx8mmdev layer.
-Based on i.MX8M Mini Development kit.
+# Useful commands
+Assuming default workspace folder (not the imx8mmdev layer root dir)
+<br/><br/>
 
-Dependencies
-============
+### Determine where a recipe is located (Example: kernel recipe)
+```
+find . -name 'linux-imx*bb'
+```
 
-  URI: <first dependency>
-  branch: <branch name>
+### Using bitbake to check which packages are included in build
+```
+bitbake -g core-image-full-cmdline && cat pn-buildlist | grep -ve "native" | sort | uniq
+```
 
-  URI: <second dependency>
-  branch: <branch name>
+### Open image manifest of default build
+```
+code build-wayland/tmp/deploy/images/imx8mmevk/core-image-full-cmdline-imx8mmevk.manifest
+```
 
-  .
-  .
-  .
+### Determine where the kernel source is hosted
+```
+rep url build-wayland/tmp/work/imx8mmevk-poky-linux/linux-imx/5.10.72+gitAUTOINC+a68e31b63f-r0/git/.git/config
+```
 
-Patches
-=======
+### Installing uuu & Flashing to target
+```
+sudo snap install universal-update-utility
 
-Please submit any patches against the meta-imx8mmdev layer to the xxxx mailing list (xxxx@zzzz.org)
-and cc: the maintainer:
+sudo uuu -b emmc_all build-wayland/tmp/deploy/images/imx8mmevk/imx-boot-imx8mmevk-sd.bin-flash_evk build-wayland/tmp/deploy/images/imx8mmevk/core-image-full-cmdline-imx8mmevk.wic.bz2/*
+```
 
-Maintainer: XXX YYYYYY <xxx.yyyyyy@zzzzz.com>
+### Using devtool to modify kernel configuration (example)
+```
+devtool modify linux-imx
+devtool status
+devtool build linux-imx
 
-Table of Contents
-=================
+devtool menuconfig linux-imx
+bitbake -c savedefconfig linux-imx
+```
 
-  I. Adding the meta-imx8mmdev layer to your build
- II. Misc
+### Example image locations
+* ./sources/poky/meta/recipes-extended/images/core-image-full-cmdline.bb
+* ./sources/meta-imx/meta-sdk/recipes-fsl/images/imx-image-core.bb
+* ./sources/meta-imx/meta-sdk/recipes-fsl/images/imx-image-multimedia.bb
+```
+find . -name '*imx-image-core*'
+```
+
+### Listing packagegroups
+```
+find . -type f -name "*.bb" | grep packagegroup
+```
 
 
-I. Adding the meta-imx8mmdev layer to your build
-=================================================
 
-Run 'bitbake-layers add-layer meta-imx8mmdev'
 
-II. Misc
-========
-
---- replace with specific information about the meta-imx8mmdev layer ---
 

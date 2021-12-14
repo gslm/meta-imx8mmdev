@@ -1,13 +1,16 @@
 {
-    "artificialDelayMilliseconds": 500,
+    "artificialDelayMilliseconds": 100,
     "keepExistingTerminalsOpen": false,
-    "runOnStartup": true,
+    "runOnStartup": false,
     "terminals": [
+
       {
         "splitTerminals": [
           {
             "name": "build",
-            "commands": ["source setup-environment build-wayland/"]
+            "commands": 
+            [ "source setup-environment build-wayland/",              
+              "reset"]
           }
         ]
       },
@@ -15,8 +18,12 @@
       {
         "splitTerminals": [
           {
-            "name": "uuu",
-            "commands": ["cd build-wayland/tmp/deploy"]
+            "name": "deployables",
+            "commands":
+             ["code /home/guilhermes/imx-yocto-bsp/sources/meta-imx8mmdev/README.md",
+               "cd build-wayland/tmp/deploy/images/imx8mmevk",
+               "echo \"sudo uuu -b emmc_all imx-boot-imx8mmevk-sd.bin-flash_evk core-image-full-cmdline-imx8mmevk.wic.bz2/*\"",
+               "reset"]
           }
         ]
       },
@@ -24,8 +31,34 @@
       {
         "splitTerminals": [
           {
-            "name": "meta-imx8mmdev",
-            "commands": ["cd sources/meta-imx8mmdev/", "git status"]
+            "name": "layer",
+            "commands": 
+            ["cd sources/meta-imx8mmdev/",
+              "reset"]
+          }
+        ]
+        
+      },
+
+      {
+        "splitTerminals": [
+          {
+            "name": "target",
+            "commands": 
+            ["picocom -b 115200 /dev/ttyUSB1"]
+          }
+        ]
+        
+      },
+
+      {
+        "splitTerminals": [
+          {
+            "name": "root",
+            "commands": 
+            [ "source setup-environment build-wayland/",
+              "cd ..",      
+              "reset"]
           }
         ]
       }

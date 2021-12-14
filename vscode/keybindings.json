@@ -1,0 +1,21 @@
+// Place your key bindings in this file to override the defaultsauto[]
+[
+ 
+    {
+        "key": "ctrl+\\",
+        "command": "workbench.action.terminal.focusNext",
+        "when": "terminalFocus"
+    },
+ 
+    {
+        "key": "alt+a",  // you could use     "key": "ctrl+`",  if you wish
+        "command": "workbench.action.closePanel",
+        // "when": "terminalFocus"
+    },
+    
+    {
+        "key": "alt+a",
+        "command": "workbench.action.toggleMaximizedPanel",
+        "when": "!terminalFocus"
+    },
+]
