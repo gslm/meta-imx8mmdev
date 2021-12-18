@@ -20,9 +20,9 @@
           {
             "name": "deployables",
             "commands":
-             ["code /home/guilhermes/imx-yocto-bsp/sources/meta-imx8mmdev/README.md",
+             ["code /home/guilhermes/imx-yocto-bsp/sources/meta-plant/README.md",
                "cd build-wayland/tmp/deploy/images/imx8mmevk",
-               "echo \"sudo uuu -b emmc_all imx-boot-imx8mmevk-sd.bin-flash_evk core-image-full-cmdline-imx8mmevk.wic.bz2/*\"",
+               "echo \"sudo uuu -b emmc_all imx-boot-imx8mmevk-sd.bin-flash_evk imx-image-plant-imx8mmevk.wic.bz2/*\"",
                "reset"]
           }
         ]
@@ -33,7 +33,7 @@
           {
             "name": "layer",
             "commands": 
-            ["cd sources/meta-imx8mmdev/",
+            ["cd sources/meta-plant/",
               "reset"]
           }
         ]

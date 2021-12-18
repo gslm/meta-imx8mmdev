@@ -1,6 +1,6 @@
 
 # Useful commands
-Assuming default workspace folder (not the imx8mmdev layer root dir)
+Assuming default workspace folder (not the meta-plant layer root dir)
 <br/><br/>
 
 ### Determine where a recipe is located (Example: kernel recipe)
@@ -51,7 +51,11 @@ find . -name '*imx-image-core*'
 ### Listing packagegroups
 ```
 find . -type f -name "*.bb" | grep packagegroup
+find . -type f -name "*.bb" | grep packagegroup | grep imx
 ```
+
+### References
+https://wiki.st.com/stm32mpu/wiki/BitBake_cheat_sheet
 
 
 

@@ -7,15 +7,15 @@
         "when": "terminalFocus"
     },
  
-    {
-        "key": "alt+a",  // you could use     "key": "ctrl+`",  if you wish
-        "command": "workbench.action.closePanel",
-        // "when": "terminalFocus"
-    },
+    // {
+    //     "key": "alt+a",  // you could use     "key": "ctrl+`",  if you wish
+    //     "command": "workbench.action.closePanel",
+    //     // "when": "terminalFocus"
+    // },
     
     {
         "key": "alt+a",
-        "command": "workbench.action.toggleMaximizedPanel",
-        "when": "!terminalFocus"
+        "command": "workbench.action.toggleMaximizedPanel"
+        //"when": "!terminalFocus"
     },
 ]
