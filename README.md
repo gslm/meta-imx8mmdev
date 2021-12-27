@@ -48,7 +48,9 @@ sudo uuu -b emmc_all build-wayland/tmp/deploy/images/imx8mmevk/imx-boot-imx8mmev
 devtool modify linux-imx
 devtool status
 devtool menuconfig linux-imx
-devtool build linux-imx
+bitbake linux-imx
+
+devtool deploy-target linux-imx root@192.168.0.108
 
 bitbake -c savedefconfig linux-imx
 ```
@@ -59,7 +61,7 @@ bitbake -c savedefconfig linux-imx
 * ls sources/meta*/recipes*/images/*.bb
 
 ##### default image (in layer meta-plant)
-* ./sources/meta-plant/recipes-base/images/imx-image-plant.bb
+* ./sources/meta-plant/recipes-core/images/imx-image-plant.bb
 
 ##### other common images
 * ./sources/poky/meta/recipes-extended/images/core-image-full-cmdline.bb
