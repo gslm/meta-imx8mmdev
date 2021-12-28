@@ -5,65 +5,58 @@ Assuming default workspace folder (not the meta-plant layer root dir)
 
 
 
-### Show current layers
+### 1. Show current layers
 ```
 bitbake-layers show-layers
 ```
 
-### Open layer config file & local configs
+### 2. Open layer config file & local configs
 ```
 code build-wayland/conf/bblayers.conf
 code build-wayland/conf/local.conf
 ```
 
-### Determine where a recipe is located (Example: kernel recipe)
+### 3. Determine where a recipe is located (Example: kernel recipe)
 ```
 find . -name 'linux-imx*bb'
 ```
 
-### Using bitbake to check which packages are included in build
+### 4 .Using bitbake to check which packages are included in build
 ```
-bitbake -g core-image-full-cmdline && cat pn-buildlist | grep -ve "native" | sort | uniq
+bitbake -g imx-image-plant && cat pn-buildlist | grep -ve "native" | sort | uniq
 ```
 
-### Open image manifest of default build
+### 5. Open image manifest of default build
 ```
 code build-wayland/tmp/deploy/images/imx8mmevk/imx-image-plant-imx8mmevk.manifest
 ```
 
-### Determine where the kernel source is hosted
-```
-rep url build-wayland/tmp/work/imx8mmevk-poky-linux/linux-imx/5.10.72+gitAUTOINC+a68e31b63f-r0/git/.git/config
-```
-
-### Installing uuu & Flashing to target
+### 6. Installing uuu & Flashing to target
 ```
 sudo snap install universal-update-utility
 
-sudo uuu -b emmc_all build-wayland/tmp/deploy/images/imx8mmevk/imx-boot-imx8mmevk-sd.bin-flash_evk build-wayland/tmp/deploy/images/imx8mmevk/core-image-full-cmdline-imx8mmevk.wic.bz2/*
+sudo uuu -b emmc_all build-wayland/tmp/deploy/images/imx8mmevk/imx-boot-imx8mmevk-sd.bin-flash_evk build-wayland/tmp/deploy/images/imx8mmevk/imx-image-plant-imx8mmevk.wic.bz2/*
 ```
 
-### Using devtool to modify kernel configuration (example)
+### 7. Using devtool to modify kernel configuration (under test)
 ```
 devtool modify linux-imx
 devtool status
 devtool menuconfig linux-imx
 bitbake linux-imx
-
 devtool deploy-target linux-imx root@192.168.0.108
-
 bitbake -c savedefconfig linux-imx
 ```
 
-### Example image locations
+### 8. Example image locations
 
-##### command to check images (from yocto base folder)
+##### 8.1 command to check images (from yocto base folder)
 * ls sources/meta*/recipes*/images/*.bb
 
-##### default image (in layer meta-plant)
+##### 8.2 default image (in layer meta-plant)
 * ./sources/meta-plant/recipes-core/images/imx-image-plant.bb
 
-##### other common images
+##### 8.3 other common images
 * ./sources/poky/meta/recipes-extended/images/core-image-full-cmdline.bb
 * ./sources/meta-imx/meta-sdk/recipes-fsl/images/imx-image-core.bb
 * ./sources/meta-imx/meta-sdk/recipes-fsl/images/imx-image-multimedia.bb
@@ -72,39 +65,47 @@ find . -name '*imx-image-core*'
 find . -name '*imx-image-plant.bb*'
 ```
 
+### 9. Check bitbake build environment variable value (example: MACHINE_ESSENTIAL_EXTRA_RRECOMMENDS)
+```
+bitbake -e imx-image-plant | grep ^MACHINE_ESSENTIAL_EXTRA_RRECOMMENDS
+```
 
-### Rootfs location & size
+### 10. Rootfs location & size
+```
 du -sh build-wayland/tmp/work/imx8mmevk-poky-linux/imx-image-plant/1.0-r0/rootfs/
+```
 
-##### find out rootfs extra space
+### 11. Find out rootfs extra space
 ```
 bitbake -e | grep ^IMAGE_ROOTFS_EXTRA_SPACE
 ```
 
+### 12. Device tree files
 
-
-
-### Device tree files
-
-##### kernel
+##### 12.1 kernel
 ```
 code build-wayland/tmp/work-shared/imx8mmevk/kernel-source/arch/arm64/boot/dts/freescale/imx8mm-evk.dts
 code build-wayland/workspace/sources/linux-imx/arch/arm64/boot/dts/freescale/imx8mm-evk.dts (after running devtool)
 ```
 
-##### u-boot
+##### 12.2 u-boot
 ```
 code build-wayland/tmp/work-shared/imx8mmevk/kernel-source/arch/arm64/boot/dts/freescale/imx8mm-evk.dts
 code build-wayland/tmp/work-shared/imx8mmevk/kernel-source/arch/arm64/boot/dts/freescale/imx8mm-evk.dtsi
 ```
 
-### Listing packagegroups
+### 13. Listing packagegroups
 ```
 find . -type f -name "*.bb" | grep packagegroup
 find . -type f -name "*.bb" | grep packagegroup | grep imx
 ```
 
-### References
+### 14. Generating extensible SDK
+```
+bitbake imx-image-plant -c populate_sdk_ext
+```
+
+## References
 https://wiki.st.com/stm32mpu/wiki/BitBake_cheat_sheet
 
 

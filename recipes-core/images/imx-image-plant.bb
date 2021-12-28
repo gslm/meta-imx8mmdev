@@ -14,7 +14,11 @@ IMAGE_INSTALL = "\
     mosquitto \ 
     mosquitto-clients"
 
+# increasing rootfs size (to test live deplyment with devtool)
 IMAGE_ROOTFS_EXTRA_SPACE = "2097152"
+
+# Include kernel modules for kernel development
+MACHINE_ESSENTIAL_EXTRA_RRECOMMENDS += "kernel-modules"
 
 inherit core-image
 
