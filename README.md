@@ -28,7 +28,7 @@ bitbake -g core-image-full-cmdline && cat pn-buildlist | grep -ve "native" | sor
 
 ### Open image manifest of default build
 ```
-code build-wayland/tmp/deploy/images/imx8mmevk/core-image-full-cmdline-imx8mmevk.manifest
+code build-wayland/tmp/deploy/images/imx8mmevk/imx-image-plant-imx8mmevk.manifest
 ```
 
 ### Determine where the kernel source is hosted
@@ -76,6 +76,13 @@ find . -name '*imx-image-plant.bb*'
 ### Rootfs location & size
 du -sh build-wayland/tmp/work/imx8mmevk-poky-linux/imx-image-plant/1.0-r0/rootfs/
 
+##### find out rootfs extra space
+```
+bitbake -e | grep ^IMAGE_ROOTFS_EXTRA_SPACE
+```
+
+
+
 
 ### Device tree files
 
@@ -87,8 +94,8 @@ code build-wayland/workspace/sources/linux-imx/arch/arm64/boot/dts/freescale/imx
 
 ##### u-boot
 ```
-code build-wayland/tmp/work/imx8mmevk-poky-linux/u-boot-imx/2021.04-r0/git/arch/arm/dts/imx8mm-evk.dts
-code build-wayland/tmp/work/imx8mmevk-poky-linux/u-boot-imx/2021.04-r0/git/arch/arm/dts/imx8mm-evk.dtsi
+code build-wayland/tmp/work-shared/imx8mmevk/kernel-source/arch/arm64/boot/dts/freescale/imx8mm-evk.dts
+code build-wayland/tmp/work-shared/imx8mmevk/kernel-source/arch/arm64/boot/dts/freescale/imx8mm-evk.dtsi
 ```
 
 ### Listing packagegroups

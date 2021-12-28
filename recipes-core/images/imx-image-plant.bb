@@ -11,7 +11,10 @@ IMAGE_INSTALL = "\
     packagegroup-core-boot \
     packagegroup-core-full-cmdline \
     ${CORE_IMAGE_EXTRA_INSTALL} \
-    "
+    mosquitto \ 
+    mosquitto-clients"
+
+IMAGE_ROOTFS_EXTRA_SPACE = "2097152"
 
 inherit core-image
 
