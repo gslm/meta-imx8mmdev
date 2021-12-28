@@ -38,12 +38,13 @@ sudo snap install universal-update-utility
 sudo uuu -b emmc_all build-wayland/tmp/deploy/images/imx8mmevk/imx-boot-imx8mmevk-sd.bin-flash_evk build-wayland/tmp/deploy/images/imx8mmevk/imx-image-plant-imx8mmevk.wic.bz2/*
 ```
 
-### 7. Using devtool to modify kernel configuration (under test)
+### 7. Using devtool with menuconfig to modify kernel configuration
 ```
 devtool modify linux-imx
-devtool status
-devtool menuconfig linux-imx
-bitbake linux-imx
+devtool status (check if linux-imx recipe was correctly added)
+devtool menuconfig linux-imx (change configs as needed and save)
+devtool finish linux-imx ../sources/meta-plant (kernel *.cfg fragment saved to custom layer)
+
 devtool deploy-target linux-imx root@192.168.0.108
 bitbake -c savedefconfig linux-imx
 ```
