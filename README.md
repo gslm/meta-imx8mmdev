@@ -105,9 +105,40 @@ find . -type f -name "*.bb" | grep packagegroup | grep imx
 ```
 bitbake imx-image-plant -c populate_sdk_ext
 ```
+### 15. Programming with VSCode 
+
+##### 15.1 References
+```
+https://variwiki.com/index.php?title=Yocto_Programming_with_VSCode&release=RELEASE_HARDKNOTT_V1.1_DART-MX8M-PLUS
+```
+##### 15.2 List of packages in build (example for recipes containing *ssh)
+```
+oe-pkgdata-util list-pkgs | grep ssh
+bitbake-layers show-recipes | grep ssh
+```
+##### 15.3 oe-pkgdata-util lookup-recipe
+```
+oe-pkgdata-util lookup-recipe ssh
+```
+
+##### 15.4 installing SDK
+```
+bitbake imx-image-plant -c populate_sdk
+./fsl-imx-wayland-glibc-x86_64-imx-image-plant-cortexa53-crypto-imx8mmevk-toolchain-5.10-hardknott.sh (from build-wayland/tmp/deploy/sdk)
+
+. /opt/fsl-imx-wayland/5.10-hardknott/environment-setup-cortexa53-crypto-poky-linux (sourcing from new shell)
+export LDFLAGS=
+```
+
+rm -f hello.bin
+/opt/fsl-imx-wayland/5.10-hardknott/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux/aarch64-poky-linux-g++ --sysroot=/opt/fsl-imx-wayland/5.10-hardknott/sysroots/cortexa53-crypto-poky-linux  -Og main.cpp -g -o hello.bin 
+
+
 
 ## References
 https://wiki.st.com/stm32mpu/wiki/BitBake_cheat_sheet
+
+
 
 
 

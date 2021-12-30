@@ -1,0 +1,4 @@
+[ 
+    {"key": "ctrl+\\","command": "workbench.action.terminal.focusNext","when": "terminalFocus"},
+    {"key": "alt+a","command": "workbench.action.toggleMaximizedPanel"}
+]

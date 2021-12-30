@@ -7,9 +7,10 @@
       {
         "splitTerminals": [
           {
-            "name": "build",
+            "name": "build-wayland",
             "commands": 
-            [ "source setup-environment build-wayland/",              
+            [ "cd ../..",
+              "source setup-environment build-wayland/",              
               "reset"]
           }
         ]
@@ -18,10 +19,10 @@
       {
         "splitTerminals": [
           {
-            "name": "deployables",
+            "name": "tmp/deploy/images/imx8mmevk",
             "commands":
-             ["code /home/guilhermes/imx-yocto-bsp/sources/meta-plant/README.md",
-               "cd build-wayland/tmp/deploy/images/imx8mmevk",
+             [ "code README.md",
+               "cd ../../build-wayland/tmp/deploy/images/imx8mmevk",
                "echo \"sudo uuu -b emmc_all imx-boot-imx8mmevk-sd.bin-flash_evk imx-image-plant-imx8mmevk.wic.bz2/*\"",
                "reset"]
           }
@@ -31,10 +32,9 @@
       {
         "splitTerminals": [
           {
-            "name": "layer",
+            "name": "meta-plant",
             "commands": 
-            ["cd sources/meta-plant/",
-              "reset"]
+            [ "reset"]
           }
         ]
         
@@ -43,9 +43,9 @@
       {
         "splitTerminals": [
           {
-            "name": "target",
+            "name": "root@imx8mmevk",
             "commands": 
-            ["picocom -b 115200 /dev/ttyUSB1"]
+            ["picocom -b 115200 /dev/ttyUSB2"]
           }
         ]
         
@@ -54,9 +54,9 @@
       {
         "splitTerminals": [
           {
-            "name": "root",
+            "name": "imx-yocto-bsp",
             "commands": 
-            [ "source setup-environment build-wayland/",
+            [ "source ../..setup-environment build-wayland/",
               "cd ..",      
               "reset"]
           }

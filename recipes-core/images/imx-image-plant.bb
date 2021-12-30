@@ -7,14 +7,20 @@ INHERIT += "rm_work"
 # No need for splash here
 IMAGE_FEATURES += "ssh-server-openssh"
 
-IMAGE_INSTALL = "\
+IMAGE_INSTALL = " \
     packagegroup-core-boot \
     packagegroup-core-full-cmdline \
     ${CORE_IMAGE_EXTRA_INSTALL} \
     mosquitto \ 
-    mosquitto-clients"
+    mosquitto-clients \
+    "
 
-# increasing rootfs size (to test live deplyment with devtool)
+EXTRA_IMAGE_FEATURES = " \
+    tools-debug \
+    ssh-server-dropbear \
+    "
+
+# increasing rootfs size (to test kernel live deplyment with devtool)
 IMAGE_ROOTFS_EXTRA_SPACE = "2097152"
 
 # Include kernel modules for kernel development
