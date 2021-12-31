@@ -1,0 +1,34 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+        "name": "GDB debug",
+        "type": "cppdbg",
+        "request": "launch",
+
+        //"program": "${config:VARISCITE.PROGRAM}", //(hello.bin)
+        "program": "${workspaceFolder}/var-hello-world/${config:VARISCITE.PROGRAM}",
+
+        "args": [],
+        "stopAtEntry": true,
+        
+        "cwd": "${workspaceFolder}",
+        //"cwd": "${workspaceFolder}/var-hello-world",
+
+        "environment": [],
+        "console": "integratedTerminal",
+        "MIMode": "gdb",
+        "targetArchitecture": "arm64",
+        
+        "preLaunchTask": "var-deploy-gdb",
+        //"preLaunchTask": "var-hello-world/var-deploy-gdb",
+
+        "setupCommands": [{
+            "description": "Enable pretty-printing for gdb",
+            "text": "-enable-pretty-printing",
+            "ignoreFailures": true
+        }],
+        "miDebuggerPath": "/usr/bin/gdb-multiarch",
+        "miDebuggerServerAddress": "${config:VARISCITE.TARGET_IP}:3000",
+    }]
+}

@@ -37,7 +37,7 @@
 	
 	"VARISCITE": {
 		/* Target Device Settings */
-		"TARGET_IP":"192.168.0.106",
+		"TARGET_IP":"192.168.0.102",
 
 		/* Project Settings */
 		"PROGRAM":"hello.bin",

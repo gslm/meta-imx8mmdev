@@ -1,43 +1,34 @@
 
 # Useful commands
-Assuming default workspace folder (not the meta-plant layer root dir)
 <br/><br/>
-
-
 
 ### 1. Show current layers
 ```
 bitbake-layers show-layers
 ```
-
 ### 2. Open layer config file & local configs
 ```
 code build-wayland/conf/bblayers.conf
 code build-wayland/conf/local.conf
 ```
-
 ### 3. Determine where a recipe is located (Example: kernel recipe)
 ```
 find . -name 'linux-imx*bb'
 ```
-
 ### 4 .Using bitbake to check which packages are included in build
 ```
 bitbake -g imx-image-plant && cat pn-buildlist | grep -ve "native" | sort | uniq
 ```
-
 ### 5. Open image manifest of default build
 ```
 code build-wayland/tmp/deploy/images/imx8mmevk/imx-image-plant-imx8mmevk.manifest
 ```
-
 ### 6. Installing uuu & Flashing to target
 ```
 sudo snap install universal-update-utility
 
 sudo uuu -b emmc_all build-wayland/tmp/deploy/images/imx8mmevk/imx-boot-imx8mmevk-sd.bin-flash_evk build-wayland/tmp/deploy/images/imx8mmevk/imx-image-plant-imx8mmevk.wic.bz2/*
 ```
-
 ### 7. Using devtool with menuconfig to modify kernel configuration
 ```
 devtool modify linux-imx
@@ -48,7 +39,6 @@ devtool finish linux-imx ../sources/meta-plant (kernel *.cfg fragment saved to c
 devtool deploy-target linux-imx root@192.168.0.108
 bitbake -c savedefconfig linux-imx
 ```
-
 ### 8. Example image locations
 
 ##### 8.1 command to check images (from yocto base folder)
@@ -130,9 +120,25 @@ bitbake imx-image-plant -c populate_sdk
 export LDFLAGS=
 ```
 
+##### 15.5 manual build (calls make in var-hello-world)
+```
 rm -f hello.bin
-/opt/fsl-imx-wayland/5.10-hardknott/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux/aarch64-poky-linux-g++ --sysroot=/opt/fsl-imx-wayland/5.10-hardknott/sysroots/cortexa53-crypto-poky-linux  -Og main.cpp -g -o hello.bin 
+/opt/fsl-imx-wayland/5.10-hardknott/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux/aarch64-poky-linux-g++ --sysroot=/opt/fsl-imx-wayland/5.10-hardknott/sysroots/cortexa53-crypto-poky-linux  -Og main.cpp -g -o hello.bin
+``` 
+##### 15.6 transfer binary to target with scp (run from build folder; replace IP with current target IP)
+```
+scp ../sources/meta-plant/var-hello-world/hello.bin root@192.168.0.102:/home/root/
+```
 
+### 16. Locating some driver files in the SDK
+```
+find . -wholename "*drivers/gpio/gpio-mxc.c*"
+```
+
+### 17. Check machines supported in current configuration
+```
+ls sources/meta-imx/meta-bsp/conf/machine
+```
 
 
 ## References

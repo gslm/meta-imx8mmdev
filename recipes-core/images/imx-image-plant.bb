@@ -10,6 +10,7 @@ IMAGE_FEATURES += "ssh-server-openssh"
 IMAGE_INSTALL = " \
     packagegroup-core-boot \
     packagegroup-core-full-cmdline \
+    packagegroup-core-tools-debug \
     ${CORE_IMAGE_EXTRA_INSTALL} \
     mosquitto \ 
     mosquitto-clients \
@@ -17,11 +18,17 @@ IMAGE_INSTALL = " \
 
 EXTRA_IMAGE_FEATURES = " \
     tools-debug \
+    debug-tweaks \
+    dbg-pkgs \
     ssh-server-dropbear \
     "
 
+# setting password (root) to prevent error from debug-tweaks
+#inherit extrausers
+#EXTRA_USERS_PARAMS = "usermod -P  root;"
+
 # increasing rootfs size (to test kernel live deplyment with devtool)
-IMAGE_ROOTFS_EXTRA_SPACE = "2097152"
+#IMAGE_ROOTFS_EXTRA_SPACE = "2097152"
 
 # Include kernel modules for kernel development
 MACHINE_ESSENTIAL_EXTRA_RRECOMMENDS += "kernel-modules"
