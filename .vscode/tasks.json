@@ -3,8 +3,8 @@
     /* Configure Yocto SDK Constants from settings.json */
     "options": {
         "env": {
-            "CXX": "${config:VARISCITE.CXX}",         /* Used by Makefile */
-            "CC": "${config:VARISCITE.CC}",           /* Used by Makefile */
+            "CXX": "${config:PLANT.CXX}",         /* Used by Makefile */
+            "CC": "${config:PLANT.CC}",           /* Used by Makefile */
         }
      },
      /* Configure integrated VS Code Terminal */
@@ -19,7 +19,7 @@
 
         /* Configure launch.json (debug) preLaunchTask Task */
         {
-            "label": "var-deploy-gdb",
+            "label": "plant-deploy-gdb",
             "isBackground": true,
             "problemMatcher":{
                 "base": "$gcc",
@@ -32,9 +32,9 @@
             "type": "shell",
             "command": "sh",
             "args": [
-                "var-hello-world/var-deploy-gdb.sh",
-                "${config:VARISCITE.TARGET_IP}",
-                "${config:VARISCITE.PROGRAM}"
+                "plant-hello-world/plant-deploy-gdb.sh",
+                "${config:PLANT.TARGET_IP}",
+                "${config:PLANT.PROGRAM}"
             ],
             "dependsOn": ["build"],
         },
@@ -43,7 +43,7 @@
         {
             "label": "build",
             "type": "shell",
-            "command": "cd var-hello-world; make clean; make -j$(nproc)",
+            "command": "cd plant-hello-world; make clean; make -j$(nproc)",
             "problemMatcher": [
                 "$gcc"
             ],

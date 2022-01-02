@@ -14,6 +14,8 @@ IMAGE_INSTALL = " \
     ${CORE_IMAGE_EXTRA_INSTALL} \
     mosquitto \ 
     mosquitto-clients \
+    nano \
+    python3-pip \
     "
 
 EXTRA_IMAGE_FEATURES = " \

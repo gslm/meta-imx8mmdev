@@ -1,7 +1,7 @@
-all: main.cpp
-	$(CXX) $(CXXFLAGS) -Og main.cpp -g -o hello.bin 
+all: main.c
+	$(CXX) $(CXXFLAGS) -Og main.c -g -o hello.bin 
 
-#all: main.cpp
+#all: main.c
 #	$(CXX) $(CXXFLAGS) -Og mpu6050_rawread.c -g -o hello.bin 
 
 clean:

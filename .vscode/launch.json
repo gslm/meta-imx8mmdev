@@ -6,22 +6,19 @@
         "type": "cppdbg",
         "request": "launch",
 
-        //"program": "${config:VARISCITE.PROGRAM}", //(hello.bin)
-        "program": "${workspaceFolder}/var-hello-world/${config:VARISCITE.PROGRAM}",
+        "program": "${workspaceFolder}/plant-hello-world/${config:PLANT.PROGRAM}",
 
         "args": [],
         "stopAtEntry": true,
         
         "cwd": "${workspaceFolder}",
-        //"cwd": "${workspaceFolder}/var-hello-world",
 
         "environment": [],
         "console": "integratedTerminal",
         "MIMode": "gdb",
         "targetArchitecture": "arm64",
         
-        "preLaunchTask": "var-deploy-gdb",
-        //"preLaunchTask": "var-hello-world/var-deploy-gdb",
+        "preLaunchTask": "plant-deploy-gdb",
 
         "setupCommands": [{
             "description": "Enable pretty-printing for gdb",
@@ -29,6 +26,6 @@
             "ignoreFailures": true
         }],
         "miDebuggerPath": "/usr/bin/gdb-multiarch",
-        "miDebuggerServerAddress": "${config:VARISCITE.TARGET_IP}:3000",
+        "miDebuggerServerAddress": "${config:PLANT.TARGET_IP}:3000",
     }]
 }

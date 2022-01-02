@@ -35,9 +35,12 @@
 	"terminal.integrated.persistentSessionReviveProcess": "never",
 	"restoreTerminals.runOnStartup": false,
 	
-	"VARISCITE": {
+
+	/* Custom lauch applications to test gdb in imx8mmvek with a simple application
+	(plant-hello-world) */
+	"PLANT": {
 		/* Target Device Settings */
-		"TARGET_IP":"192.168.0.102",
+		"TARGET_IP":"192.168.0.115",
 
 		/* Project Settings */
 		"PROGRAM":"hello.bin",
@@ -48,8 +51,8 @@
 		"SDKTARGETSYSROOT": "/opt/fsl-imx-wayland/5.10-hardknott/sysroots/cortexa53-crypto-poky-linux",
 
 		/* Yocto SDK Constants */
-		"CC_PREFIX": "${config:VARISCITE.OECORE_NATIVE_SYSROOT}/usr/bin/${config:VARISCITE.ARCH}/${config:VARISCITE.ARCH}-",
-		"CXX": "${config:VARISCITE.CC_PREFIX}g++ --sysroot=${config:VARISCITE.SDKTARGETSYSROOT}",
-		"CC": "${config:VARISCITE.CC_PREFIX}gcc --sysroot=${config:VARISCITE.SDKTARGETSYSROOT}",
+		"CC_PREFIX": "${config:PLANT.OECORE_NATIVE_SYSROOT}/usr/bin/${config:PLANT.ARCH}/${config:PLANT.ARCH}-",
+		"CXX": "${config:PLANT.CC_PREFIX}g++ --sysroot=${config:PLANT.SDKTARGETSYSROOT}",
+		"CC": "${config:PLANT.CC_PREFIX}gcc --sysroot=${config:PLANT.SDKTARGETSYSROOT}",
 	}		
 }

@@ -45,7 +45,7 @@
           {
             "name": "root@imx8mmevk",
             "commands": 
-            ["picocom -b 115200 /dev/ttyUSB2"]
+            ["picocom -b 115200 /dev/ttyUSB1"]
           }
         ]
         

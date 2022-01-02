@@ -2,7 +2,7 @@
 readonly TARGET_IP="$1"
 readonly PROGRAM="$2"
 readonly TARGET_DIR="/home/root"
-readonly PROGRAM_FOLDER="var-hello-world"
+readonly PROGRAM_FOLDER="plant-hello-world"
 
 # Must match startsPattern in tasks.json
 echo "Deploying to target..."

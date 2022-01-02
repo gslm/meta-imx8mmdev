@@ -30,15 +30,37 @@ sudo snap install universal-update-utility
 sudo uuu -b emmc_all build-wayland/tmp/deploy/images/imx8mmevk/imx-boot-imx8mmevk-sd.bin-flash_evk build-wayland/tmp/deploy/images/imx8mmevk/imx-image-plant-imx8mmevk.wic.bz2/*
 ```
 ### 7. Using devtool with menuconfig to modify kernel configuration
+
+##### 7.1 Modifying kernel with menuconfig before deploying
 ```
 devtool modify linux-imx
 devtool status (check if linux-imx recipe was correctly added)
 devtool menuconfig linux-imx (change configs as needed and save)
 devtool finish linux-imx ../sources/meta-plant (kernel *.cfg fragment saved to custom layer)
 
-devtool deploy-target linux-imx root@192.168.0.108
-bitbake -c savedefconfig linux-imx
 ```
+##### 7.2 Deploying python3-pip and nano to a live target with SSH
+
+Best approach so far is to add python3-pip to custom image imx-image-plant and rebuild whole image.
+Then, the devtool-target
+```
+bitbake imx-image-plant -c cleanall && bitbake imx-image-plant
+devtool modify python3-pip
+devtool deploy-target python3-pip root@192.168.0.115
+devtool reset python3-pip
+```
+
+test pip3 in target: pip3 install pyserial
+
+```
+bitbake imx-image-plant -c cleanall && bitbake imx-image-plant
+devtool modify nano
+devtool deploy-target nano root@192.168.0.115
+devtool reset nano
+```
+A better solution would be to use devtool add python3-pip ../sources/poky/meta/recipes-devtools/python/python3-pip (working on findind out build errors)
+
+
 ### 8. Example image locations
 
 ##### 8.1 command to check images (from yocto base folder)
@@ -120,14 +142,14 @@ bitbake imx-image-plant -c populate_sdk
 export LDFLAGS=
 ```
 
-##### 15.5 manual build (calls make in var-hello-world)
+##### 15.5 manual build (calls make in plant-hello-world)
 ```
 rm -f hello.bin
-/opt/fsl-imx-wayland/5.10-hardknott/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux/aarch64-poky-linux-g++ --sysroot=/opt/fsl-imx-wayland/5.10-hardknott/sysroots/cortexa53-crypto-poky-linux  -Og main.cpp -g -o hello.bin
+/opt/fsl-imx-wayland/5.10-hardknott/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux/aarch64-poky-linux-g++ --sysroot=/opt/fsl-imx-wayland/5.10-hardknott/sysroots/cortexa53-crypto-poky-linux  -Og main.c -g -o hello.bin
 ``` 
 ##### 15.6 transfer binary to target with scp (run from build folder; replace IP with current target IP)
 ```
-scp ../sources/meta-plant/var-hello-world/hello.bin root@192.168.0.102:/home/root/
+scp ../sources/meta-plant/plant-hello-world/hello.bin root@192.168.0.102:/home/root/
 ```
 
 ### 16. Locating some driver files in the SDK
