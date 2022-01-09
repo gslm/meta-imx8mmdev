@@ -1,7 +1,45 @@
 {
-    "folders": [
-        {
-            "path": ".vscode"
-        }
-    ]
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../../build-wayland/workspace"
+		}
+	],
+	"settings": {
+		"workbench.colorTheme": "Darkest+ Italic",
+		"workbench.iconTheme": "material-icon-theme",
+		"terminal.integrated.defaultProfile.linux": "bash",
+		"terminal.integrated.enablePersistentSessions": false,
+		"restoreTerminals.artificialDelayMilliseconds": 300,
+		"workbench.colorCustomizations": {
+			"terminal.background": "#002B36",
+			"terminal.foreground": "#93A1A1",
+			"terminalCursor.background": "#93A1A1",
+			"terminalCursor.foreground": "#93A1A1",
+			"terminal.ansiBlack": "#002B36",
+			"terminal.ansiBlue": "#268BD2",
+			"terminal.ansiBrightBlack": "#657B83",
+			"terminal.ansiBrightBlue": "#268BD2",
+			"terminal.ansiBrightCyan": "#2AA198",
+			"terminal.ansiBrightGreen": "#859900",
+			"terminal.ansiBrightMagenta": "#6C71C4",
+			"terminal.ansiBrightRed": "#DC322F",
+			"terminal.ansiBrightWhite": "#FDF6E3",
+			"terminal.ansiBrightYellow": "#B58900",
+			"terminal.ansiCyan": "#2AA198",
+			"terminal.ansiGreen": "#859900",
+			"terminal.ansiMagenta": "#6C71C4",
+			"terminal.ansiRed": "#DC322F",
+			"terminal.ansiWhite": "#93A1A1",
+			"terminal.ansiYellow": "#B58900",
+			"editorRuler.foreground": "#000039"
+		},
+		"terminal.integrated.persistentSessionReviveProcess": "never",
+		"restoreTerminals.runOnStartup": false,
+		"files.associations": {
+			"delay.h": "c"
+		}
+	}
 }

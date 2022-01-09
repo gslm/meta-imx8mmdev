@@ -127,6 +127,9 @@ https://variwiki.com/index.php?title=Yocto_Programming_with_VSCode&release=RELEA
 ```
 oe-pkgdata-util list-pkgs | grep ssh
 bitbake-layers show-recipes | grep ssh
+
+bitbake -e imx-image-plant | grep ^IMAGE_FEATURES=
+bitbake -e imx-image-plant | grep ^IMAGE_INSTALL=
 ```
 ##### 15.3 oe-pkgdata-util lookup-recipe
 ```
@@ -163,6 +166,58 @@ ls sources/meta-imx/meta-bsp/conf/machine
 ```
 
 
+### 18. Yocto setup TFTP/NFS
+from the meta-plant layer folder, in host machine
+```
+mkdir rootfs && cd rootfs
+sudo tar xvf ../../../build-wayland/tmp/deploy/images/imx8mmevk/imx-image-plant-imx8mmevk.tar.gz
+
+sudo apt-get install nfs-kernel-server
+code /etc/exports
+
+```
+
+append /etc/exports with
+```
+/home/guilhermes/imx-yocto-bsp/sources/meta-plant/rootfs *(rw,sync,no_root_squash,no_all_squash,no_subtree_check)
+```
+
+
+```
+sudo apt-get install xinetd tftpd tftp
+ls /usr/sbin/in.tftpd
+```
+```
+code /etc/xinetd.d/tftp
+
+service tftp
+{
+    protocol        = udp
+    port            = 69
+    socket_type     = dgram
+    wait            = yes
+    user            = nobody
+    server          = /usr/sbin/in.tftpd
+    server_args     = /tftpboot
+    disable         = no
+}
+
+```
+
+```
+sudo mkdir /tftpboot
+sudo chmod -R 777 /tftpboot
+sudo /etc/init.d/xinetd restart
+```
+
+```
+sudo cp -a /home/guilhermes/imx-yocto-bsp/sources/meta-plant/rootfs/boot/*.dtb /tftpboot
+sudo cp /home/guilhermes/imx-yocto-bsp/sources/meta-plant/rootfs/boot/Image.gz /tftpboot
+```
+enable DNS
+```
+ln -fs /home/guilhermes/imx-yocto-bsp/sources/meta-plant/rootfs/proc/net/pnp /home/guilhermes/imx-yocto-bsp/sources/meta-plant/rootfs/etc/resolv.conf
+```
 ## References
 https://wiki.st.com/stm32mpu/wiki/BitBake_cheat_sheet
 

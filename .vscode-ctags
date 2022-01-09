@@ -1,0 +1,1100 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	//
+$(BUILDPYTHON)	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^$(BUILDPYTHON):	Programs\/python.o $(LIBRARY) $(LDLIBRARY) $(PY3LIBRARY) $(EXPORTSYMS)$/;"	t
+$(BUILDPYTHON)-gdb.py	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^$(BUILDPYTHON)-gdb.py: $(SRC_GDB_HOOKS)$/;"	t
+$(DESTSHARED)	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^$(DESTSHARED):$/;"	t
+$(DLLLIBRARY)	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^$(DLLLIBRARY) libpython$(LDVERSION).dll.a: $(LIBRARY_OBJS)$/;"	t
+$(IO_OBJS)	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^$(IO_OBJS): $(IO_H)$/;"	t
+$(LIBRARY)	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^$(LIBRARY): $(LIBRARY_OBJS)$/;"	t
+$(LIBRARY_OBJS)	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^$(LIBRARY_OBJS) $(MODOBJS) Programs\/python.o: $(PYTHON_HEADERS)$/;"	t
+$(MODOBJS)	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^$(LIBRARY_OBJS) $(MODOBJS) Programs\/python.o: $(PYTHON_HEADERS)$/;"	t
+$(PYTHONFRAMEWORKDIR)/Versions/$(VERSION)/$(PYTHONFRAMEWORK)	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^$(PYTHONFRAMEWORKDIR)\/Versions\/$(VERSION)\/$(PYTHONFRAMEWORK): \\$/;"	t
+$(srcdir)/Modules/_blake2/blake2s_impl.c	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^$(srcdir)\/Modules\/_blake2\/blake2s_impl.c: $(srcdir)\/Modules\/_blake2\/blake2b_impl.c $(srcdi/;"	t
+.PHONY	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^.PHONY=clinic$/;"	m
+.PHONY	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^.PHONY=coverage coverage-lcov coverage-report$/;"	m
+.PHONY	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^.PHONY=regen-ast$/;"	m
+.c.o	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^.c.o:$/;"	t
+A53_0	symlinks/imx8mm.dtsi	/^		A53_0: cpu@0 {$/;"	l
+A53_1	symlinks/imx8mm.dtsi	/^		A53_1: cpu@1 {$/;"	l
+A53_2	symlinks/imx8mm.dtsi	/^		A53_2: cpu@2 {$/;"	l
+A53_3	symlinks/imx8mm.dtsi	/^		A53_3: cpu@3 {$/;"	l
+A53_L2	symlinks/imx8mm.dtsi	/^		A53_L2: l2-cache0 {$/;"	l
+ABIFLAGS	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^ABIFLAGS=	$/;"	m
+ACC_FS_SENSITIVITY_0	plant-hello-world/mpu6050_rawread.c	/^#define ACC_FS_SENSITIVITY_0	/;"	d	file:
+ACC_FS_SENSITIVITY_1	plant-hello-world/mpu6050_rawread.c	/^#define ACC_FS_SENSITIVITY_1	/;"	d	file:
+ACC_FS_SENSITIVITY_2	plant-hello-world/mpu6050_rawread.c	/^#define ACC_FS_SENSITIVITY_2	/;"	d	file:
+ACC_FS_SENSITIVITY_3	plant-hello-world/mpu6050_rawread.c	/^#define ACC_FS_SENSITIVITY_3	/;"	d	file:
+AR	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^AR=		aarch64-poky-linux-gcc-ar$/;"	m
+ARFLAGS	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^ARFLAGS=	rcs$/;"	m
+BASECFLAGS	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^BASECFLAGS=	 -Wno-unused-result -Wsign-compare$/;"	m
+BASECPPFLAGS	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^BASECPPFLAGS=	-IObjects -IInclude -IPython$/;"	m
+BASEMODLIBS	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^BASEMODLIBS=$/;"	m
+BINDIR	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^BINDIR=		\/usr\/bin$/;"	m
+BINLIBDEST	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^BINLIBDEST=	${exec_prefix}\/${PLATLIBDIR}\/python$(VERSION)$/;"	m
+BLDLIBRARY	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^BLDLIBRARY=     -L. -lpython$(LDVERSION)$/;"	m
+BLDSHARED	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^BLDSHARED=	$(CC) -shared $(PY_CORE_LDFLAGS)$/;"	m
+BUILDEXE	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^BUILDEXE=	$/;"	m
+BUILDPYTHON	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^BUILDPYTHON=	python$(BUILDEXE)$/;"	m
+BUILD_GNU_TYPE	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^BUILD_GNU_TYPE=	x86_64-pc-linux-gnu$/;"	m
+BYTESTR_DEPS	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^BYTESTR_DEPS = \\$/;"	m
+CC	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^CC=		aarch64-poky-linux-gcc  -mcpu=cortex-a53 -march=armv8-a+crc+crypto -fstack-protector-strong/;"	m
+CCSHARED	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^CCSHARED=	-fPIC$/;"	m
+CFLAGSFORSHARED	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^CFLAGSFORSHARED=$(CCSHARED)$/;"	m
+CFLAGS_ALIASING	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^CFLAGS_ALIASING=$/;"	m
+CONFIGFILES	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^CONFIGFILES=	configure configure.ac acconfig.h pyconfig.h.in Makefile.pre.in$/;"	m
+CONFIGURE_CFLAGS	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^CONFIGURE_CFLAGS=	 -O2 -pipe -g -feliminate-unused-debug-types $/;"	m
+CONFIGURE_CFLAGS_NODIST	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^CONFIGURE_CFLAGS_NODIST= -std=c99 -Wextra -Wno-unused-result -Wno-unused-parameter -Wno-missing-/;"	m
+CONFIGURE_CPPFLAGS	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^CONFIGURE_CPPFLAGS=	$/;"	m
+CONFIGURE_LDFLAGS	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^CONFIGURE_LDFLAGS=	-Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed -Wl,-z,relro,-z,now -L$/;"	m
+CONFIGURE_LDFLAGS_NODIST	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^CONFIGURE_LDFLAGS_NODIST=$/;"	m
+CONFIG_ARGS	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^CONFIG_ARGS=	 '--build=x86_64-linux' '--host=aarch64-poky-linux' '--target=aarch64-poky-linux' '/;"	m
+CONFINCLUDEDIR	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^CONFINCLUDEDIR=	$(exec_prefix)\/include$/;"	m
+CONFINCLUDEPY	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^CONFINCLUDEPY=	$(CONFINCLUDEDIR)\/python$(LDVERSION)$/;"	m
+COREPYTHONPATH	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^COREPYTHONPATH=$(DESTPATH)$(SITEPATH)$(TESTPATH)$/;"	m
+COVERAGE_INFO	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^COVERAGE_INFO=	$(abs_builddir)\/coverage.info$/;"	m
+COVERAGE_REPORT	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^COVERAGE_REPORT=$(abs_builddir)\/lcov-report$/;"	m
+COVERAGE_REPORT_OPTIONS	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^COVERAGE_REPORT_OPTIONS=--no-branch-coverage --title "CPython lcov report"$/;"	m
+CXX	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^CXX=		aarch64-poky-linux-g++  -mcpu=cortex-a53 -march=armv8-a+crc+crypto -fstack-protector-stron/;"	m
+Check_Status	rootfs/usr/lib/python3.9/site-packages/cairo/include/py3cairo.h	/^  int (*Check_Status)(cairo_status_t status);$/;"	m	struct:__anon61a8008b0b08	typeref:typename:int (*)(cairo_status_t status)
+Context_FromContext	rootfs/usr/lib/python3.9/site-packages/cairo/include/py3cairo.h	/^  PyObject *(*Context_FromContext)(cairo_t *ctx, PyTypeObject *type,$/;"	m	struct:__anon61a8008b0b08	typeref:typename:PyObject * (*)(cairo_t * ctx,PyTypeObject * type,PyObject * base)
+Context_Type	rootfs/usr/lib/python3.9/site-packages/cairo/include/py3cairo.h	/^  PyTypeObject *Context_Type;$/;"	m	struct:__anon61a8008b0b08	typeref:typename:PyTypeObject *
+DESTDIRS	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^DESTDIRS=	$(exec_prefix) $(LIBDIR) $(BINLIBDEST) $(DESTSHARED)$/;"	m
+DESTLIB	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^DESTLIB=$(LIBDEST)$/;"	m
+DESTPATH	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^DESTPATH=$/;"	m
+DESTSHARED	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^DESTSHARED=	$(BINLIBDEST)\/lib-dynload$/;"	m
+DFLAGS	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^DFLAGS=         $/;"	m
+DIRMODE	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^DIRMODE=	755$/;"	m
+DIST	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^DIST=		$(DISTFILES) $(DISTDIRS)$/;"	m
+DISTDIRS	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^DISTDIRS=	$(SUBDIRS) $(SUBDIRSTOO) Ext-dummy$/;"	m
+DISTFILES	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^DISTFILES=	README.rst ChangeLog $(CONFIGFILES)$/;"	m
+DLINCLDIR	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^DLINCLDIR=	.$/;"	m
+DLLLIBRARY	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^DLLLIBRARY=	$/;"	m
+DOUBLE_IS_LITTLE_ENDIAN_IEEE754	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define DOUBLE_IS_LITTLE_ENDIAN_IEEE754 /;"	d
+DTRACE	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^DTRACE=         $/;"	m
+DTRACE_DEPS	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^DTRACE_DEPS = \\$/;"	m
+DTRACE_HEADERS	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^DTRACE_HEADERS= $/;"	m
+DTRACE_OBJS	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^DTRACE_OBJS=    $/;"	m
+DYNLOADFILE	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^DYNLOADFILE=	dynload_shlib.o$/;"	m
+ENABLE_IPV6	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define ENABLE_IPV6 /;"	d
+ENSUREPIP	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^ENSUREPIP=      no$/;"	m
+EXE	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^EXE=		$/;"	m
+EXEMODE	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^EXEMODE=	755$/;"	m
+EXPORTSFROM	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^EXPORTSFROM=	$/;"	m
+EXPORTSYMS	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^EXPORTSYMS=	$/;"	m
+EXT_SUFFIX	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^EXT_SUFFIX=	.cpython-39-aarch64-linux-gnu.so$/;"	m
+FILEMODE	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^FILEMODE=	644$/;"	m
+FontFace_FromFontFace	rootfs/usr/lib/python3.9/site-packages/cairo/include/py3cairo.h	/^  PyObject *(*FontFace_FromFontFace)(cairo_font_face_t *font_face);$/;"	m	struct:__anon61a8008b0b08	typeref:typename:PyObject * (*)(cairo_font_face_t * font_face)
+FontFace_Type	rootfs/usr/lib/python3.9/site-packages/cairo/include/py3cairo.h	/^  PyTypeObject *FontFace_Type;$/;"	m	struct:__anon61a8008b0b08	typeref:typename:PyTypeObject *
+FontOptions_FromFontOptions	rootfs/usr/lib/python3.9/site-packages/cairo/include/py3cairo.h	/^  PyObject *(*FontOptions_FromFontOptions)($/;"	m	struct:__anon61a8008b0b08	typeref:typename:PyObject * (*)(cairo_font_options_t * font_options)
+FontOptions_Type	rootfs/usr/lib/python3.9/site-packages/cairo/include/py3cairo.h	/^  PyTypeObject *FontOptions_Type;$/;"	m	struct:__anon61a8008b0b08	typeref:typename:PyTypeObject *
+GITBRANCH	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^GITBRANCH=	$/;"	m
+GITTAG	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^GITTAG=		$/;"	m
+GITVERSION	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^GITVERSION=	$/;"	m
+GNULD	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^GNULD=		yes$/;"	m
+GYR_FS_SENSITIVITY_0	plant-hello-world/mpu6050_rawread.c	/^#define GYR_FS_SENSITIVITY_0	/;"	d	file:
+GYR_FS_SENSITIVITY_1	plant-hello-world/mpu6050_rawread.c	/^#define GYR_FS_SENSITIVITY_1	/;"	d	file:
+GYR_FS_SENSITIVITY_2	plant-hello-world/mpu6050_rawread.c	/^#define GYR_FS_SENSITIVITY_2	/;"	d	file:
+GYR_FS_SENSITIVITY_3	plant-hello-world/mpu6050_rawread.c	/^#define GYR_FS_SENSITIVITY_3	/;"	d	file:
+Gradient_Type	rootfs/usr/lib/python3.9/site-packages/cairo/include/py3cairo.h	/^  PyTypeObject *Gradient_Type;$/;"	m	struct:__anon61a8008b0b08	typeref:typename:PyTypeObject *
+HAVE_ACCEPT4	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_ACCEPT4 /;"	d
+HAVE_ACOSH	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_ACOSH /;"	d
+HAVE_ADDRINFO	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_ADDRINFO /;"	d
+HAVE_ALARM	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_ALARM /;"	d
+HAVE_ALIGNED_REQUIRED	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_ALIGNED_REQUIRED /;"	d
+HAVE_ALLOCA_H	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_ALLOCA_H /;"	d
+HAVE_ASINH	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_ASINH /;"	d
+HAVE_ASM_TYPES_H	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_ASM_TYPES_H /;"	d
+HAVE_ATANH	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_ATANH /;"	d
+HAVE_BIND_TEXTDOMAIN_CODESET	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_BIND_TEXTDOMAIN_CODESET /;"	d
+HAVE_BROKEN_SEM_GETVALUE	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_BROKEN_SEM_GETVALUE /;"	d
+HAVE_BUILTIN_ATOMIC	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_BUILTIN_ATOMIC /;"	d
+HAVE_CHOWN	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_CHOWN /;"	d
+HAVE_CHROOT	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_CHROOT /;"	d
+HAVE_CLOCK	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_CLOCK /;"	d
+HAVE_CLOCK_GETRES	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_CLOCK_GETRES /;"	d
+HAVE_CLOCK_GETTIME	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_CLOCK_GETTIME /;"	d
+HAVE_CLOCK_SETTIME	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_CLOCK_SETTIME /;"	d
+HAVE_CONFSTR	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_CONFSTR /;"	d
+HAVE_COPYSIGN	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_COPYSIGN /;"	d
+HAVE_COPY_FILE_RANGE	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_COPY_FILE_RANGE /;"	d
+HAVE_CRYPT_H	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_CRYPT_H /;"	d
+HAVE_CRYPT_R	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_CRYPT_R /;"	d
+HAVE_CTERMID	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_CTERMID /;"	d
+HAVE_CURSES_FILTER	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_CURSES_FILTER /;"	d
+HAVE_CURSES_H	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_CURSES_H /;"	d
+HAVE_CURSES_HAS_KEY	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_CURSES_HAS_KEY /;"	d
+HAVE_CURSES_IMMEDOK	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_CURSES_IMMEDOK /;"	d
+HAVE_CURSES_IS_PAD	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_CURSES_IS_PAD /;"	d
+HAVE_CURSES_IS_TERM_RESIZED	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_CURSES_IS_TERM_RESIZED /;"	d
+HAVE_CURSES_RESIZETERM	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_CURSES_RESIZETERM /;"	d
+HAVE_CURSES_RESIZE_TERM	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_CURSES_RESIZE_TERM /;"	d
+HAVE_CURSES_SYNCOK	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_CURSES_SYNCOK /;"	d
+HAVE_CURSES_TYPEAHEAD	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_CURSES_TYPEAHEAD /;"	d
+HAVE_CURSES_USE_ENV	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_CURSES_USE_ENV /;"	d
+HAVE_CURSES_WCHGAT	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_CURSES_WCHGAT /;"	d
+HAVE_DECL_ISFINITE	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_DECL_ISFINITE /;"	d
+HAVE_DECL_ISINF	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_DECL_ISINF /;"	d
+HAVE_DECL_ISNAN	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_DECL_ISNAN /;"	d
+HAVE_DECL_RTLD_DEEPBIND	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_DECL_RTLD_DEEPBIND /;"	d
+HAVE_DECL_RTLD_GLOBAL	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_DECL_RTLD_GLOBAL /;"	d
+HAVE_DECL_RTLD_LAZY	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_DECL_RTLD_LAZY /;"	d
+HAVE_DECL_RTLD_LOCAL	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_DECL_RTLD_LOCAL /;"	d
+HAVE_DECL_RTLD_MEMBER	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_DECL_RTLD_MEMBER /;"	d
+HAVE_DECL_RTLD_NODELETE	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_DECL_RTLD_NODELETE /;"	d
+HAVE_DECL_RTLD_NOLOAD	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_DECL_RTLD_NOLOAD /;"	d
+HAVE_DECL_RTLD_NOW	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_DECL_RTLD_NOW /;"	d
+HAVE_DEVICE_MACROS	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_DEVICE_MACROS /;"	d
+HAVE_DEV_PTMX	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_DEV_PTMX /;"	d
+HAVE_DIRENT_D_TYPE	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_DIRENT_D_TYPE /;"	d
+HAVE_DIRENT_H	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_DIRENT_H /;"	d
+HAVE_DIRFD	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_DIRFD /;"	d
+HAVE_DLFCN_H	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_DLFCN_H /;"	d
+HAVE_DLOPEN	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_DLOPEN /;"	d
+HAVE_DUP2	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_DUP2 /;"	d
+HAVE_DUP3	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_DUP3 /;"	d
+HAVE_DYNAMIC_LOADING	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_DYNAMIC_LOADING /;"	d
+HAVE_ENDIAN_H	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_ENDIAN_H /;"	d
+HAVE_EPOLL	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_EPOLL /;"	d
+HAVE_EPOLL_CREATE1	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_EPOLL_CREATE1 /;"	d
+HAVE_ERF	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_ERF /;"	d
+HAVE_ERFC	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_ERFC /;"	d
+HAVE_ERRNO_H	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_ERRNO_H /;"	d
+HAVE_EXECV	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_EXECV /;"	d
+HAVE_EXPLICIT_BZERO	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_EXPLICIT_BZERO /;"	d
+HAVE_EXPM1	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_EXPM1 /;"	d
+HAVE_FACCESSAT	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_FACCESSAT /;"	d
+HAVE_FCHDIR	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_FCHDIR /;"	d
+HAVE_FCHMOD	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_FCHMOD /;"	d
+HAVE_FCHMODAT	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_FCHMODAT /;"	d
+HAVE_FCHOWN	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_FCHOWN /;"	d
+HAVE_FCHOWNAT	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_FCHOWNAT /;"	d
+HAVE_FCNTL_H	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_FCNTL_H /;"	d
+HAVE_FDATASYNC	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_FDATASYNC /;"	d
+HAVE_FDOPENDIR	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_FDOPENDIR /;"	d
+HAVE_FEXECVE	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_FEXECVE /;"	d
+HAVE_FINITE	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_FINITE /;"	d
+HAVE_FLOCK	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_FLOCK /;"	d
+HAVE_FORK	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_FORK /;"	d
+HAVE_FORKPTY	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_FORKPTY /;"	d
+HAVE_FPATHCONF	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_FPATHCONF /;"	d
+HAVE_FSEEKO	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_FSEEKO /;"	d
+HAVE_FSTATAT	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_FSTATAT /;"	d
+HAVE_FSTATVFS	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_FSTATVFS /;"	d
+HAVE_FSYNC	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_FSYNC /;"	d
+HAVE_FTELLO	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_FTELLO /;"	d
+HAVE_FTIME	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_FTIME /;"	d
+HAVE_FTRUNCATE	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_FTRUNCATE /;"	d
+HAVE_FUTIMENS	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_FUTIMENS /;"	d
+HAVE_FUTIMES	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_FUTIMES /;"	d
+HAVE_FUTIMESAT	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_FUTIMESAT /;"	d
+HAVE_GAI_STRERROR	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_GAI_STRERROR /;"	d
+HAVE_GAMMA	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_GAMMA /;"	d
+HAVE_GCC_UINT128_T	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_GCC_UINT128_T /;"	d
+HAVE_GETADDRINFO	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_GETADDRINFO /;"	d
+HAVE_GETC_UNLOCKED	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_GETC_UNLOCKED /;"	d
+HAVE_GETENTROPY	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_GETENTROPY /;"	d
+HAVE_GETGRGID_R	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_GETGRGID_R /;"	d
+HAVE_GETGRNAM_R	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_GETGRNAM_R /;"	d
+HAVE_GETGROUPLIST	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_GETGROUPLIST /;"	d
+HAVE_GETGROUPS	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_GETGROUPS /;"	d
+HAVE_GETHOSTBYNAME_R	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_GETHOSTBYNAME_R /;"	d
+HAVE_GETHOSTBYNAME_R_6_ARG	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_GETHOSTBYNAME_R_6_ARG /;"	d
+HAVE_GETITIMER	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_GETITIMER /;"	d
+HAVE_GETLOADAVG	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_GETLOADAVG /;"	d
+HAVE_GETLOGIN	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_GETLOGIN /;"	d
+HAVE_GETNAMEINFO	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_GETNAMEINFO /;"	d
+HAVE_GETPAGESIZE	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_GETPAGESIZE /;"	d
+HAVE_GETPEERNAME	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_GETPEERNAME /;"	d
+HAVE_GETPGID	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_GETPGID /;"	d
+HAVE_GETPGRP	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_GETPGRP /;"	d
+HAVE_GETPID	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_GETPID /;"	d
+HAVE_GETPRIORITY	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_GETPRIORITY /;"	d
+HAVE_GETPWENT	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_GETPWENT /;"	d
+HAVE_GETPWNAM_R	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_GETPWNAM_R /;"	d
+HAVE_GETPWUID_R	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_GETPWUID_R /;"	d
+HAVE_GETRANDOM	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_GETRANDOM /;"	d
+HAVE_GETRANDOM_SYSCALL	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_GETRANDOM_SYSCALL /;"	d
+HAVE_GETRESGID	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_GETRESGID /;"	d
+HAVE_GETRESUID	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_GETRESUID /;"	d
+HAVE_GETSID	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_GETSID /;"	d
+HAVE_GETSPENT	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_GETSPENT /;"	d
+HAVE_GETSPNAM	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_GETSPNAM /;"	d
+HAVE_GETWD	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_GETWD /;"	d
+HAVE_GRP_H	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_GRP_H /;"	d
+HAVE_HSTRERROR	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_HSTRERROR /;"	d
+HAVE_HTOLE64	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_HTOLE64 /;"	d
+HAVE_HYPOT	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_HYPOT /;"	d
+HAVE_IF_NAMEINDEX	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_IF_NAMEINDEX /;"	d
+HAVE_INET_ATON	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_INET_ATON /;"	d
+HAVE_INET_PTON	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_INET_PTON /;"	d
+HAVE_INITGROUPS	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_INITGROUPS /;"	d
+HAVE_INTTYPES_H	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_INTTYPES_H /;"	d
+HAVE_KILL	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_KILL /;"	d
+HAVE_KILLPG	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_KILLPG /;"	d
+HAVE_LANGINFO_H	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_LANGINFO_H /;"	d
+HAVE_LCHOWN	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_LCHOWN /;"	d
+HAVE_LGAMMA	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_LGAMMA /;"	d
+HAVE_LIBDL	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_LIBDL /;"	d
+HAVE_LIBINTL_H	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_LIBINTL_H /;"	d
+HAVE_LIBREADLINE	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_LIBREADLINE /;"	d
+HAVE_LINK	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_LINK /;"	d
+HAVE_LINKAT	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_LINKAT /;"	d
+HAVE_LINUX_CAN_BCM_H	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_LINUX_CAN_BCM_H /;"	d
+HAVE_LINUX_CAN_H	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_LINUX_CAN_H /;"	d
+HAVE_LINUX_CAN_J1939_H	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_LINUX_CAN_J1939_H /;"	d
+HAVE_LINUX_CAN_RAW_FD_FRAMES	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_LINUX_CAN_RAW_FD_FRAMES /;"	d
+HAVE_LINUX_CAN_RAW_H	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_LINUX_CAN_RAW_H /;"	d
+HAVE_LINUX_CAN_RAW_JOIN_FILTERS	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_LINUX_CAN_RAW_JOIN_FILTERS /;"	d
+HAVE_LINUX_MEMFD_H	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_LINUX_MEMFD_H /;"	d
+HAVE_LINUX_NETLINK_H	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_LINUX_NETLINK_H /;"	d
+HAVE_LINUX_QRTR_H	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_LINUX_QRTR_H /;"	d
+HAVE_LINUX_RANDOM_H	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_LINUX_RANDOM_H /;"	d
+HAVE_LINUX_TIPC_H	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_LINUX_TIPC_H /;"	d
+HAVE_LINUX_VM_SOCKETS_H	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_LINUX_VM_SOCKETS_H /;"	d
+HAVE_LINUX_WAIT_H	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_LINUX_WAIT_H /;"	d
+HAVE_LOCKF	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_LOCKF /;"	d
+HAVE_LOG1P	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_LOG1P /;"	d
+HAVE_LOG2	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_LOG2 /;"	d
+HAVE_LONG_DOUBLE	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_LONG_DOUBLE /;"	d
+HAVE_LSTAT	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_LSTAT /;"	d
+HAVE_LUTIMES	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_LUTIMES /;"	d
+HAVE_MADVISE	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_MADVISE /;"	d
+HAVE_MAKEDEV	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_MAKEDEV /;"	d
+HAVE_MBRTOWC	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_MBRTOWC /;"	d
+HAVE_MEMFD_CREATE	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_MEMFD_CREATE /;"	d
+HAVE_MEMRCHR	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_MEMRCHR /;"	d
+HAVE_MKDIRAT	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_MKDIRAT /;"	d
+HAVE_MKFIFO	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_MKFIFO /;"	d
+HAVE_MKFIFOAT	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_MKFIFOAT /;"	d
+HAVE_MKNOD	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_MKNOD /;"	d
+HAVE_MKNODAT	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_MKNODAT /;"	d
+HAVE_MKTIME	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_MKTIME /;"	d
+HAVE_MMAP	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_MMAP /;"	d
+HAVE_MREMAP	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_MREMAP /;"	d
+HAVE_NCURSES_H	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_NCURSES_H /;"	d
+HAVE_NETPACKET_PACKET_H	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_NETPACKET_PACKET_H /;"	d
+HAVE_NET_IF_H	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_NET_IF_H /;"	d
+HAVE_NICE	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_NICE /;"	d
+HAVE_OPENAT	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_OPENAT /;"	d
+HAVE_OPENPTY	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_OPENPTY /;"	d
+HAVE_PATHCONF	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_PATHCONF /;"	d
+HAVE_PAUSE	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_PAUSE /;"	d
+HAVE_PIPE2	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_PIPE2 /;"	d
+HAVE_POLL	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_POLL /;"	d
+HAVE_POLL_H	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_POLL_H /;"	d
+HAVE_POSIX_FADVISE	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_POSIX_FADVISE /;"	d
+HAVE_POSIX_FALLOCATE	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_POSIX_FALLOCATE /;"	d
+HAVE_POSIX_SPAWN	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_POSIX_SPAWN /;"	d
+HAVE_POSIX_SPAWNP	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_POSIX_SPAWNP /;"	d
+HAVE_PREAD	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_PREAD /;"	d
+HAVE_PREADV	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_PREADV /;"	d
+HAVE_PREADV2	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_PREADV2 /;"	d
+HAVE_PRLIMIT	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_PRLIMIT /;"	d
+HAVE_PROTOTYPES	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_PROTOTYPES /;"	d
+HAVE_PTHREAD_CONDATTR_SETCLOCK	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_PTHREAD_CONDATTR_SETCLOCK /;"	d
+HAVE_PTHREAD_GETCPUCLOCKID	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_PTHREAD_GETCPUCLOCKID /;"	d
+HAVE_PTHREAD_H	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_PTHREAD_H /;"	d
+HAVE_PTHREAD_KILL	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_PTHREAD_KILL /;"	d
+HAVE_PTHREAD_SIGMASK	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_PTHREAD_SIGMASK /;"	d
+HAVE_PTY_H	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_PTY_H /;"	d
+HAVE_PWRITE	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_PWRITE /;"	d
+HAVE_PWRITEV	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_PWRITEV /;"	d
+HAVE_PWRITEV2	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_PWRITEV2 /;"	d
+HAVE_READLINK	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_READLINK /;"	d
+HAVE_READLINKAT	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_READLINKAT /;"	d
+HAVE_READV	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_READV /;"	d
+HAVE_REALPATH	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_REALPATH /;"	d
+HAVE_RENAMEAT	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_RENAMEAT /;"	d
+HAVE_RL_APPEND_HISTORY	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_RL_APPEND_HISTORY /;"	d
+HAVE_RL_CATCH_SIGNAL	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_RL_CATCH_SIGNAL /;"	d
+HAVE_RL_COMPLETION_APPEND_CHARACTER	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_RL_COMPLETION_APPEND_CHARACTER /;"	d
+HAVE_RL_COMPLETION_DISPLAY_MATCHES_HOOK	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_RL_COMPLETION_DISPLAY_MATCHES_HOOK /;"	d
+HAVE_RL_COMPLETION_MATCHES	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_RL_COMPLETION_MATCHES /;"	d
+HAVE_RL_COMPLETION_SUPPRESS_APPEND	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_RL_COMPLETION_SUPPRESS_APPEND /;"	d
+HAVE_RL_PRE_INPUT_HOOK	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_RL_PRE_INPUT_HOOK /;"	d
+HAVE_RL_RESIZE_TERMINAL	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_RL_RESIZE_TERMINAL /;"	d
+HAVE_ROUND	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_ROUND /;"	d
+HAVE_SCHED_GET_PRIORITY_MAX	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_SCHED_GET_PRIORITY_MAX /;"	d
+HAVE_SCHED_H	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_SCHED_H /;"	d
+HAVE_SCHED_RR_GET_INTERVAL	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_SCHED_RR_GET_INTERVAL /;"	d
+HAVE_SCHED_SETAFFINITY	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_SCHED_SETAFFINITY /;"	d
+HAVE_SCHED_SETPARAM	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_SCHED_SETPARAM /;"	d
+HAVE_SCHED_SETSCHEDULER	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_SCHED_SETSCHEDULER /;"	d
+HAVE_SEM_GETVALUE	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_SEM_GETVALUE /;"	d
+HAVE_SEM_OPEN	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_SEM_OPEN /;"	d
+HAVE_SEM_TIMEDWAIT	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_SEM_TIMEDWAIT /;"	d
+HAVE_SEM_UNLINK	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_SEM_UNLINK /;"	d
+HAVE_SENDFILE	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_SENDFILE /;"	d
+HAVE_SETEGID	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_SETEGID /;"	d
+HAVE_SETEUID	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_SETEUID /;"	d
+HAVE_SETGID	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_SETGID /;"	d
+HAVE_SETGROUPS	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_SETGROUPS /;"	d
+HAVE_SETHOSTNAME	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_SETHOSTNAME /;"	d
+HAVE_SETITIMER	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_SETITIMER /;"	d
+HAVE_SETLOCALE	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_SETLOCALE /;"	d
+HAVE_SETPGID	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_SETPGID /;"	d
+HAVE_SETPGRP	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_SETPGRP /;"	d
+HAVE_SETPRIORITY	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_SETPRIORITY /;"	d
+HAVE_SETREGID	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_SETREGID /;"	d
+HAVE_SETRESGID	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_SETRESGID /;"	d
+HAVE_SETRESUID	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_SETRESUID /;"	d
+HAVE_SETREUID	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_SETREUID /;"	d
+HAVE_SETSID	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_SETSID /;"	d
+HAVE_SETUID	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_SETUID /;"	d
+HAVE_SETVBUF	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_SETVBUF /;"	d
+HAVE_SHADOW_H	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_SHADOW_H /;"	d
+HAVE_SHM_OPEN	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_SHM_OPEN /;"	d
+HAVE_SHM_UNLINK	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_SHM_UNLINK /;"	d
+HAVE_SIGACTION	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_SIGACTION /;"	d
+HAVE_SIGALTSTACK	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_SIGALTSTACK /;"	d
+HAVE_SIGFILLSET	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_SIGFILLSET /;"	d
+HAVE_SIGINFO_T_SI_BAND	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_SIGINFO_T_SI_BAND /;"	d
+HAVE_SIGINTERRUPT	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_SIGINTERRUPT /;"	d
+HAVE_SIGNAL_H	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_SIGNAL_H /;"	d
+HAVE_SIGPENDING	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_SIGPENDING /;"	d
+HAVE_SIGRELSE	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_SIGRELSE /;"	d
+HAVE_SIGTIMEDWAIT	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_SIGTIMEDWAIT /;"	d
+HAVE_SIGWAIT	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_SIGWAIT /;"	d
+HAVE_SIGWAITINFO	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_SIGWAITINFO /;"	d
+HAVE_SNPRINTF	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_SNPRINTF /;"	d
+HAVE_SOCKADDR_ALG	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_SOCKADDR_ALG /;"	d
+HAVE_SOCKADDR_STORAGE	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_SOCKADDR_STORAGE /;"	d
+HAVE_SOCKETPAIR	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_SOCKETPAIR /;"	d
+HAVE_SPAWN_H	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_SPAWN_H /;"	d
+HAVE_SSIZE_T	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_SSIZE_T /;"	d
+HAVE_STATVFS	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_STATVFS /;"	d
+HAVE_STAT_TV_NSEC	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_STAT_TV_NSEC /;"	d
+HAVE_STDARG_PROTOTYPES	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_STDARG_PROTOTYPES /;"	d
+HAVE_STDINT_H	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_STDINT_H /;"	d
+HAVE_STDIO_H	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_STDIO_H /;"	d
+HAVE_STDLIB_H	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_STDLIB_H /;"	d
+HAVE_STD_ATOMIC	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_STD_ATOMIC /;"	d
+HAVE_STRDUP	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_STRDUP /;"	d
+HAVE_STRFTIME	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_STRFTIME /;"	d
+HAVE_STRINGS_H	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_STRINGS_H /;"	d
+HAVE_STRING_H	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_STRING_H /;"	d
+HAVE_STRSIGNAL	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_STRSIGNAL /;"	d
+HAVE_STRUCT_PASSWD_PW_GECOS	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_STRUCT_PASSWD_PW_GECOS /;"	d
+HAVE_STRUCT_PASSWD_PW_PASSWD	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_STRUCT_PASSWD_PW_PASSWD /;"	d
+HAVE_STRUCT_STAT_ST_BLKSIZE	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_STRUCT_STAT_ST_BLKSIZE /;"	d
+HAVE_STRUCT_STAT_ST_BLOCKS	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_STRUCT_STAT_ST_BLOCKS /;"	d
+HAVE_STRUCT_STAT_ST_RDEV	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_STRUCT_STAT_ST_RDEV /;"	d
+HAVE_STRUCT_TM_TM_ZONE	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_STRUCT_TM_TM_ZONE /;"	d
+HAVE_SYMLINK	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_SYMLINK /;"	d
+HAVE_SYMLINKAT	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_SYMLINKAT /;"	d
+HAVE_SYNC	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_SYNC /;"	d
+HAVE_SYSCONF	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_SYSCONF /;"	d
+HAVE_SYSEXITS_H	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_SYSEXITS_H /;"	d
+HAVE_SYS_EPOLL_H	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_SYS_EPOLL_H /;"	d
+HAVE_SYS_FILE_H	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_SYS_FILE_H /;"	d
+HAVE_SYS_IOCTL_H	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_SYS_IOCTL_H /;"	d
+HAVE_SYS_MMAN_H	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_SYS_MMAN_H /;"	d
+HAVE_SYS_PARAM_H	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_SYS_PARAM_H /;"	d
+HAVE_SYS_POLL_H	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_SYS_POLL_H /;"	d
+HAVE_SYS_RANDOM_H	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_SYS_RANDOM_H /;"	d
+HAVE_SYS_RESOURCE_H	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_SYS_RESOURCE_H /;"	d
+HAVE_SYS_SELECT_H	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_SYS_SELECT_H /;"	d
+HAVE_SYS_SENDFILE_H	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_SYS_SENDFILE_H /;"	d
+HAVE_SYS_SOCKET_H	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_SYS_SOCKET_H /;"	d
+HAVE_SYS_STATVFS_H	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_SYS_STATVFS_H /;"	d
+HAVE_SYS_STAT_H	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_SYS_STAT_H /;"	d
+HAVE_SYS_SYSCALL_H	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_SYS_SYSCALL_H /;"	d
+HAVE_SYS_SYSMACROS_H	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_SYS_SYSMACROS_H /;"	d
+HAVE_SYS_TIMES_H	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_SYS_TIMES_H /;"	d
+HAVE_SYS_TIME_H	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_SYS_TIME_H /;"	d
+HAVE_SYS_TYPES_H	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_SYS_TYPES_H /;"	d
+HAVE_SYS_UIO_H	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_SYS_UIO_H /;"	d
+HAVE_SYS_UN_H	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_SYS_UN_H /;"	d
+HAVE_SYS_UTSNAME_H	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_SYS_UTSNAME_H /;"	d
+HAVE_SYS_WAIT_H	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_SYS_WAIT_H /;"	d
+HAVE_SYS_XATTR_H	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_SYS_XATTR_H /;"	d
+HAVE_TCGETPGRP	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_TCGETPGRP /;"	d
+HAVE_TCSETPGRP	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_TCSETPGRP /;"	d
+HAVE_TEMPNAM	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_TEMPNAM /;"	d
+HAVE_TERMIOS_H	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_TERMIOS_H /;"	d
+HAVE_TERM_H	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_TERM_H /;"	d
+HAVE_TGAMMA	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_TGAMMA /;"	d
+HAVE_TIMEGM	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_TIMEGM /;"	d
+HAVE_TIMES	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_TIMES /;"	d
+HAVE_TMPFILE	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_TMPFILE /;"	d
+HAVE_TMPNAM	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_TMPNAM /;"	d
+HAVE_TMPNAM_R	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_TMPNAM_R /;"	d
+HAVE_TM_ZONE	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_TM_ZONE /;"	d
+HAVE_TRUNCATE	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_TRUNCATE /;"	d
+HAVE_UNAME	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_UNAME /;"	d
+HAVE_UNISTD_H	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_UNISTD_H /;"	d
+HAVE_UNLINKAT	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_UNLINKAT /;"	d
+HAVE_UTIMENSAT	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_UTIMENSAT /;"	d
+HAVE_UTIMES	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_UTIMES /;"	d
+HAVE_UTIME_H	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_UTIME_H /;"	d
+HAVE_UUID_GENERATE_TIME_SAFE	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_UUID_GENERATE_TIME_SAFE /;"	d
+HAVE_UUID_H	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_UUID_H /;"	d
+HAVE_UUID_UUID_H	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_UUID_UUID_H /;"	d
+HAVE_WAIT3	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_WAIT3 /;"	d
+HAVE_WAIT4	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_WAIT4 /;"	d
+HAVE_WAITID	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_WAITID /;"	d
+HAVE_WAITPID	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_WAITPID /;"	d
+HAVE_WCHAR_H	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_WCHAR_H /;"	d
+HAVE_WCSCOLL	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_WCSCOLL /;"	d
+HAVE_WCSFTIME	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_WCSFTIME /;"	d
+HAVE_WCSXFRM	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_WCSXFRM /;"	d
+HAVE_WMEMCMP	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_WMEMCMP /;"	d
+HAVE_WORKING_TZSET	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_WORKING_TZSET /;"	d
+HAVE_WRITEV	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_WRITEV /;"	d
+HAVE_X509_VERIFY_PARAM_SET1_HOST	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_X509_VERIFY_PARAM_SET1_HOST /;"	d
+HAVE_ZLIB_COPY	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define HAVE_ZLIB_COPY /;"	d
+HOST_GNU_TYPE	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^HOST_GNU_TYPE=	aarch64-poky-linux-gnu$/;"	m
+I2C_DEVICE_FILE	plant-hello-world/mpu6050_rawread.c	/^#define I2C_DEVICE_FILE /;"	d	file:
+INCLDIRSTOMAKE	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^INCLDIRSTOMAKE=$(INCLUDEDIR) $(CONFINCLUDEDIR) $(INCLUDEPY) $(CONFINCLUDEPY)$/;"	m
+INCLUDEDIR	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^INCLUDEDIR=	\/usr\/include$/;"	m
+INCLUDEPY	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^INCLUDEPY=	$(INCLUDEDIR)\/python$(LDVERSION)$/;"	m
+INSTALL	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^INSTALL=	install -c$/;"	m
+INSTALL_DATA	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^INSTALL_DATA=	${INSTALL} -m 644$/;"	m
+INSTALL_PROGRAM	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^INSTALL_PROGRAM=${INSTALL}$/;"	m
+INSTALL_SCRIPT	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^INSTALL_SCRIPT= ${INSTALL}$/;"	m
+INSTALL_SHARED	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^INSTALL_SHARED= ${INSTALL} -m 755$/;"	m
+INSTSONAME	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^INSTSONAME=	libpython$(LDVERSION).so.1.0$/;"	m
+IO_H	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^IO_H=		Modules\/_io\/_iomodule.h$/;"	m
+IO_OBJS	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^IO_OBJS=	\\$/;"	m
+ImageSurface_Type	rootfs/usr/lib/python3.9/site-packages/cairo/include/py3cairo.h	/^  PyTypeObject *ImageSurface_Type;$/;"	m	struct:__anon61a8008b0b08	typeref:typename:PyTypeObject *
+Include/pydtrace_probes.h	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^Include\/pydtrace_probes.h: $(srcdir)\/Include\/pydtrace.d$/;"	t
+LDCXXSHARED	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^LDCXXSHARED=	$(CXX) -shared$/;"	m
+LDLIBRARY	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^LDLIBRARY=      libpython$(LDVERSION).so$/;"	m
+LDLIBRARYDIR	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^LDLIBRARYDIR=   $/;"	m
+LDSHARED	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^LDSHARED=	$(CC) -shared $(PY_LDFLAGS)$/;"	m
+LDVERSION	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^LDVERSION=	$(VERSION)$(ABIFLAGS)$/;"	m
+LIBC	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^LIBC=		$/;"	m
+LIBDEST	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^LIBDEST=	$(SCRIPTDIR)\/python$(VERSION)$/;"	m
+LIBDIR	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^LIBDIR=		\/usr\/lib$/;"	m
+LIBFFI_INCLUDEDIR	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^LIBFFI_INCLUDEDIR=	$/;"	m
+LIBM	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^LIBM=		-lm$/;"	m
+LIBOBJDIR	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^LIBOBJDIR=	Python\/$/;"	m
+LIBOBJS	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^LIBOBJS=	$/;"	m
+LIBPC	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^LIBPC=		$(LIBDIR)\/pkgconfig$/;"	m
+LIBPL	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^LIBPL=		$(prefix)\/lib\/python3.9\/config-$(VERSION)$(ABIFLAGS)-aarch64-linux-gnu$/;"	m
+LIBPYTHON	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^LIBPYTHON=	$/;"	m
+LIBRARY	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^LIBRARY=	libpython$(VERSION)$(ABIFLAGS).a$/;"	m
+LIBRARY_OBJS	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^LIBRARY_OBJS=	\\$/;"	m
+LIBRARY_OBJS_OMIT_FROZEN	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^LIBRARY_OBJS_OMIT_FROZEN=	\\$/;"	m
+LIBS	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^LIBS=		-lcrypt -lpthread -ldl  -lpthread -lutil -lm$/;"	m
+LIBSUBDIRS	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^LIBSUBDIRS=	tkinter tkinter\/test tkinter\/test\/test_tkinter \\$/;"	m
+LINKCC	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^LINKCC=		$(PURIFY) $(MAINCC)$/;"	m
+LINKFORSHARED	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^LINKFORSHARED=	-Xlinker -export-dynamic$/;"	m
+LIPO_32BIT_FLAGS	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^LIPO_32BIT_FLAGS=$/;"	m
+LIPO_INTEL64_FLAGS	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^LIPO_INTEL64_FLAGS=$/;"	m
+LLVM_PROF_ERR	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^LLVM_PROF_ERR=no$/;"	m
+LLVM_PROF_FILE	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^LLVM_PROF_FILE=$/;"	m
+LLVM_PROF_MERGER	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^LLVM_PROF_MERGER=true$/;"	m
+LN	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^LN=		ln$/;"	m
+LOCALMODLIBS	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^LOCALMODLIBS=                       $/;"	m
+LT_OBJDIR	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define LT_OBJDIR /;"	d
+LinearGradient_Type	rootfs/usr/lib/python3.9/site-packages/cairo/include/py3cairo.h	/^  PyTypeObject *LinearGradient_Type;$/;"	m	struct:__anon61a8008b0b08	typeref:typename:PyTypeObject *
+MACHDEP	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^MACHDEP=	linux$/;"	m
+MACHDEP_OBJS	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^MACHDEP_OBJS=	$/;"	m
+MACHDESTLIB	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^MACHDESTLIB=$(BINLIBDEST)$/;"	m
+MACOSX_DEPLOYMENT_TARGET	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^MACOSX_DEPLOYMENT_TARGET=$/;"	m
+MAJOR_IN_SYSMACROS	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define MAJOR_IN_SYSMACROS /;"	d
+MAKESETUP	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^MAKESETUP=      $(srcdir)\/Modules\/makesetup$/;"	m
+MANDIR	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^MANDIR=		\/usr\/share\/man$/;"	m
+MAX_VALUE	plant-hello-world/mpu6050_rawread.c	/^#define MAX_VALUE /;"	d	file:
+MKDIR_P	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^MKDIR_P=	mkdir -p$/;"	m
+MODBUILT_NAMES	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^MODBUILT_NAMES=      posix  errno  pwd  _sre  _codecs  _weakref  _functools  _operator  _collect/;"	m
+MODDISABLED_NAMES	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^MODDISABLED_NAMES= $/;"	m
+MODLIBS	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^MODLIBS=           $(LOCALMODLIBS) $(BASEMODLIBS)$/;"	m
+MODOBJS	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^MODOBJS=             Modules\/posixmodule.o  Modules\/errnomodule.o  Modules\/pwdmodule.o  Modul/;"	m
+MODULE_OBJS	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^MODULE_OBJS=	\\$/;"	m
+MPU6050_REG_ACCEL_CONFIG	plant-hello-world/mpu6050_rawread.c	/^#define MPU6050_REG_ACCEL_CONFIG /;"	d	file:
+MPU6050_REG_ACC_X_HIGH	plant-hello-world/mpu6050_rawread.c	/^#define MPU6050_REG_ACC_X_HIGH /;"	d	file:
+MPU6050_REG_ACC_X_LOW	plant-hello-world/mpu6050_rawread.c	/^#define MPU6050_REG_ACC_X_LOW /;"	d	file:
+MPU6050_REG_ACC_Y_HIGH	plant-hello-world/mpu6050_rawread.c	/^#define MPU6050_REG_ACC_Y_HIGH /;"	d	file:
+MPU6050_REG_ACC_Y_LOW	plant-hello-world/mpu6050_rawread.c	/^#define MPU6050_REG_ACC_Y_LOW /;"	d	file:
+MPU6050_REG_ACC_Z_HIGH	plant-hello-world/mpu6050_rawread.c	/^#define MPU6050_REG_ACC_Z_HIGH /;"	d	file:
+MPU6050_REG_ACC_Z_LOW	plant-hello-world/mpu6050_rawread.c	/^#define MPU6050_REG_ACC_Z_LOW /;"	d	file:
+MPU6050_REG_GYRO_CONFIG	plant-hello-world/mpu6050_rawread.c	/^#define MPU6050_REG_GYRO_CONFIG /;"	d	file:
+MPU6050_REG_GYRO_X_HIGH	plant-hello-world/mpu6050_rawread.c	/^#define MPU6050_REG_GYRO_X_HIGH /;"	d	file:
+MPU6050_REG_GYRO_X_LOW	plant-hello-world/mpu6050_rawread.c	/^#define MPU6050_REG_GYRO_X_LOW /;"	d	file:
+MPU6050_REG_GYRO_Y_HIGH	plant-hello-world/mpu6050_rawread.c	/^#define MPU6050_REG_GYRO_Y_HIGH /;"	d	file:
+MPU6050_REG_GYRO_Y_LOW	plant-hello-world/mpu6050_rawread.c	/^#define MPU6050_REG_GYRO_Y_LOW /;"	d	file:
+MPU6050_REG_GYRO_Z_HIGH	plant-hello-world/mpu6050_rawread.c	/^#define MPU6050_REG_GYRO_Z_HIGH /;"	d	file:
+MPU6050_REG_GYRO_Z_LOW	plant-hello-world/mpu6050_rawread.c	/^#define MPU6050_REG_GYRO_Z_LOW /;"	d	file:
+MPU6050_REG_POWER	plant-hello-world/mpu6050_rawread.c	/^#define MPU6050_REG_POWER /;"	d	file:
+MPU6050_SLAVE_ADDR	plant-hello-world/mpu6050_rawread.c	/^#define MPU6050_SLAVE_ADDR /;"	d	file:
+MULTIARCH	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^MULTIARCH=	aarch64-linux-gnu$/;"	m
+MULTIARCH_CPPFLAGS	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^MULTIARCH_CPPFLAGS = -DMULTIARCH=\\"aarch64-linux-gnu\\"$/;"	m
+MVWDELCH_IS_EXPRESSION	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define MVWDELCH_IS_EXPRESSION /;"	d
+Makefile	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^Makefile Modules\/config.c: Makefile.pre \\$/;"	t
+Makefile.pre	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^Makefile.pre: $(srcdir)\/Makefile.pre.in config.status$/;"	t
+Matrix_FromMatrix	rootfs/usr/lib/python3.9/site-packages/cairo/include/py3cairo.h	/^  PyObject *(*Matrix_FromMatrix)(const cairo_matrix_t *matrix);$/;"	m	struct:__anon61a8008b0b08	typeref:typename:PyObject * (*)(const cairo_matrix_t * matrix)
+Matrix_Type	rootfs/usr/lib/python3.9/site-packages/cairo/include/py3cairo.h	/^  PyTypeObject *Matrix_Type;$/;"	m	struct:__anon61a8008b0b08	typeref:typename:PyTypeObject *
+Modules/_abc$(EXT_SUFFIX)	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^Modules\/_abc$(EXT_SUFFIX):  Modules\/_abc.o; $(BLDSHARED)  Modules\/_abc.o   -o Modules\/_abc$(/;"	t
+Modules/_abc.o	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^Modules\/_abc.o: $(srcdir)\/Modules\/_abc.c; $(CC) $(PY_BUILTIN_MODULE_CFLAGS)  -c $(srcdir)\/Mo/;"	t
+Modules/_codecs$(EXT_SUFFIX)	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^Modules\/_codecs$(EXT_SUFFIX):  Modules\/_codecsmodule.o; $(BLDSHARED)  Modules\/_codecsmodule.o/;"	t
+Modules/_codecsmodule.o	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^Modules\/_codecsmodule.o: $(srcdir)\/Modules\/_codecsmodule.c; $(CC) $(PY_BUILTIN_MODULE_CFLAGS)/;"	t
+Modules/_collections$(EXT_SUFFIX)	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^Modules\/_collections$(EXT_SUFFIX):  Modules\/_collectionsmodule.o; $(BLDSHARED)  Modules\/_coll/;"	t
+Modules/_collectionsmodule.o	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^Modules\/_collectionsmodule.o: $(srcdir)\/Modules\/_collectionsmodule.c; $(CC) $(PY_BUILTIN_MODU/;"	t
+Modules/_functools$(EXT_SUFFIX)	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^Modules\/_functools$(EXT_SUFFIX):  Modules\/_functoolsmodule.o; $(BLDSHARED)  Modules\/_functool/;"	t
+Modules/_functoolsmodule.o	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^Modules\/_functoolsmodule.o: $(srcdir)\/Modules\/_functoolsmodule.c; $(CC) $(PY_BUILTIN_MODULE_C/;"	t
+Modules/_io$(EXT_SUFFIX)	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^Modules\/_io$(EXT_SUFFIX):  Modules\/_iomodule.o Modules\/iobase.o Modules\/fileio.o Modules\/by/;"	t
+Modules/_iomodule.o	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^Modules\/_iomodule.o: $(srcdir)\/Modules\/_io\/_iomodule.c; $(CC) $(PY_BUILTIN_MODULE_CFLAGS)  -/;"	t
+Modules/_locale$(EXT_SUFFIX)	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^Modules\/_locale$(EXT_SUFFIX):  Modules\/_localemodule.o; $(BLDSHARED)  Modules\/_localemodule.o/;"	t
+Modules/_localemodule.o	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^Modules\/_localemodule.o: $(srcdir)\/Modules\/_localemodule.c; $(CC) $(PY_BUILTIN_MODULE_CFLAGS)/;"	t
+Modules/_math.o	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^Modules\/_math.o: Modules\/_math.c Modules\/_math.h$/;"	t
+Modules/_operator$(EXT_SUFFIX)	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^Modules\/_operator$(EXT_SUFFIX):  Modules\/_operator.o; $(BLDSHARED)  Modules\/_operator.o   -o /;"	t
+Modules/_operator.o	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^Modules\/_operator.o: $(srcdir)\/Modules\/_operator.c; $(CC) $(PY_BUILTIN_MODULE_CFLAGS)  -c $(s/;"	t
+Modules/_peg_parser$(EXT_SUFFIX)	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^Modules\/_peg_parser$(EXT_SUFFIX):  Modules\/_peg_parser.o; $(BLDSHARED)  Modules\/_peg_parser.o/;"	t
+Modules/_peg_parser.o	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^Modules\/_peg_parser.o: $(srcdir)\/Modules\/_peg_parser.c; $(CC) $(PY_BUILTIN_MODULE_CFLAGS)  -c/;"	t
+Modules/_signal$(EXT_SUFFIX)	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^Modules\/_signal$(EXT_SUFFIX):  Modules\/signalmodule.o; $(BLDSHARED)  Modules\/signalmodule.o  /;"	t
+Modules/_sre$(EXT_SUFFIX)	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^Modules\/_sre$(EXT_SUFFIX):  Modules\/_sre.o; $(BLDSHARED)  Modules\/_sre.o   -o Modules\/_sre$(/;"	t
+Modules/_sre.o	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^Modules\/_sre.o: $(srcdir)\/Modules\/_sre.c $(srcdir)\/Modules\/sre.h $(srcdir)\/Modules\/sre_co/;"	t
+Modules/_sre.o	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^Modules\/_sre.o: $(srcdir)\/Modules\/_sre.c; $(CC) $(PY_BUILTIN_MODULE_CFLAGS)  -c $(srcdir)\/Mo/;"	t
+Modules/_stat$(EXT_SUFFIX)	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^Modules\/_stat$(EXT_SUFFIX):  Modules\/_stat.o; $(BLDSHARED)  Modules\/_stat.o   -o Modules\/_st/;"	t
+Modules/_stat.o	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^Modules\/_stat.o: $(srcdir)\/Modules\/_stat.c; $(CC) $(PY_BUILTIN_MODULE_CFLAGS)  -c $(srcdir)\//;"	t
+Modules/_symtable$(EXT_SUFFIX)	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^Modules\/_symtable$(EXT_SUFFIX):  Modules\/symtablemodule.o; $(BLDSHARED)  Modules\/symtablemodu/;"	t
+Modules/_thread$(EXT_SUFFIX)	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^Modules\/_thread$(EXT_SUFFIX):  Modules\/_threadmodule.o; $(BLDSHARED)  Modules\/_threadmodule.o/;"	t
+Modules/_threadmodule.o	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^Modules\/_threadmodule.o: $(srcdir)\/Modules\/_threadmodule.c; $(CC) $(PY_BUILTIN_MODULE_CFLAGS)/;"	t
+Modules/_tracemalloc$(EXT_SUFFIX)	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^Modules\/_tracemalloc$(EXT_SUFFIX):  Modules\/_tracemalloc.o; $(BLDSHARED)  Modules\/_tracemallo/;"	t
+Modules/_tracemalloc.o	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^Modules\/_tracemalloc.o: $(srcdir)\/Modules\/_tracemalloc.c; $(CC) $(PY_BUILTIN_MODULE_CFLAGS)  /;"	t
+Modules/_weakref$(EXT_SUFFIX)	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^Modules\/_weakref$(EXT_SUFFIX):  Modules\/_weakref.o; $(BLDSHARED)  Modules\/_weakref.o   -o Mod/;"	t
+Modules/_weakref.o	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^Modules\/_weakref.o: $(srcdir)\/Modules\/_weakref.c; $(CC) $(PY_BUILTIN_MODULE_CFLAGS)  -c $(src/;"	t
+Modules/atexit$(EXT_SUFFIX)	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^Modules\/atexit$(EXT_SUFFIX):  Modules\/atexitmodule.o; $(BLDSHARED)  Modules\/atexitmodule.o   /;"	t
+Modules/atexitmodule.o	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^Modules\/atexitmodule.o: $(srcdir)\/Modules\/atexitmodule.c; $(CC) $(PY_BUILTIN_MODULE_CFLAGS)  /;"	t
+Modules/bufferedio.o	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^Modules\/bufferedio.o: $(srcdir)\/Modules\/_io\/bufferedio.c; $(CC) $(PY_BUILTIN_MODULE_CFLAGS) /;"	t
+Modules/bytesio.o	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^Modules\/bytesio.o: $(srcdir)\/Modules\/_io\/bytesio.c; $(CC) $(PY_BUILTIN_MODULE_CFLAGS)  -DPy_/;"	t
+Modules/config.c	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^Makefile Modules\/config.c: Makefile.pre \\$/;"	t
+Modules/errno$(EXT_SUFFIX)	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^Modules\/errno$(EXT_SUFFIX):  Modules\/errnomodule.o; $(BLDSHARED)  Modules\/errnomodule.o   -o /;"	t
+Modules/errnomodule.o	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^Modules\/errnomodule.o: $(srcdir)\/Modules\/errnomodule.c; $(CC) $(PY_BUILTIN_MODULE_CFLAGS)  -c/;"	t
+Modules/faulthandler$(EXT_SUFFIX)	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^Modules\/faulthandler$(EXT_SUFFIX):  Modules\/faulthandler.o; $(BLDSHARED)  Modules\/faulthandle/;"	t
+Modules/faulthandler.o	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^Modules\/faulthandler.o: $(srcdir)\/Modules\/faulthandler.c; $(CC) $(PY_BUILTIN_MODULE_CFLAGS)  /;"	t
+Modules/fileio.o	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^Modules\/fileio.o: $(srcdir)\/Modules\/_io\/fileio.c; $(CC) $(PY_BUILTIN_MODULE_CFLAGS)  -DPy_BU/;"	t
+Modules/gcmodule.o	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^Modules\/gcmodule.o: $(srcdir)\/Include\/pydtrace.h$/;"	t
+Modules/getbuildinfo.o	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^Modules\/getbuildinfo.o: $(PARSER_OBJS) \\$/;"	t
+Modules/getpath.o	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^Modules\/getpath.o: $(srcdir)\/Modules\/getpath.c Makefile$/;"	t
+Modules/grpmodule.o	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^Modules\/grpmodule.o: $(srcdir)\/Modules\/grpmodule.c $(srcdir)\/Modules\/posixmodule.h$/;"	t
+Modules/iobase.o	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^Modules\/iobase.o: $(srcdir)\/Modules\/_io\/iobase.c; $(CC) $(PY_BUILTIN_MODULE_CFLAGS)  -DPy_BU/;"	t
+Modules/itertools$(EXT_SUFFIX)	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^Modules\/itertools$(EXT_SUFFIX):  Modules\/itertoolsmodule.o; $(BLDSHARED)  Modules\/itertoolsmo/;"	t
+Modules/itertoolsmodule.o	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^Modules\/itertoolsmodule.o: $(srcdir)\/Modules\/itertoolsmodule.c; $(CC) $(PY_BUILTIN_MODULE_CFL/;"	t
+Modules/posix$(EXT_SUFFIX)	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^Modules\/posix$(EXT_SUFFIX):  Modules\/posixmodule.o; $(BLDSHARED)  Modules\/posixmodule.o   -o /;"	t
+Modules/posixmodule.o	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^Modules\/posixmodule.o: $(srcdir)\/Modules\/posixmodule.c $(srcdir)\/Modules\/posixmodule.h$/;"	t
+Modules/posixmodule.o	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^Modules\/posixmodule.o: $(srcdir)\/Modules\/posixmodule.c; $(CC) $(PY_BUILTIN_MODULE_CFLAGS)  -D/;"	t
+Modules/pwd$(EXT_SUFFIX)	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^Modules\/pwd$(EXT_SUFFIX):  Modules\/pwdmodule.o; $(BLDSHARED)  Modules\/pwdmodule.o   -o Module/;"	t
+Modules/pwdmodule.o	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^Modules\/pwdmodule.o: $(srcdir)\/Modules\/pwdmodule.c $(srcdir)\/Modules\/posixmodule.h$/;"	t
+Modules/pwdmodule.o	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^Modules\/pwdmodule.o: $(srcdir)\/Modules\/pwdmodule.c; $(CC) $(PY_BUILTIN_MODULE_CFLAGS)  -c $(s/;"	t
+Modules/python.exp	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^Modules\/python.exp: $(LIBRARY)$/;"	t
+Modules/signalmodule.o	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^Modules\/signalmodule.o: $(srcdir)\/Modules\/signalmodule.c $(srcdir)\/Modules\/posixmodule.h$/;"	t
+Modules/signalmodule.o	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^Modules\/signalmodule.o: $(srcdir)\/Modules\/signalmodule.c; $(CC) $(PY_BUILTIN_MODULE_CFLAGS)  /;"	t
+Modules/stringio.o	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^Modules\/stringio.o: $(srcdir)\/Modules\/_io\/stringio.c; $(CC) $(PY_BUILTIN_MODULE_CFLAGS)  -DP/;"	t
+Modules/symtablemodule.o	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^Modules\/symtablemodule.o: $(srcdir)\/Modules\/symtablemodule.c; $(CC) $(PY_BUILTIN_MODULE_CFLAG/;"	t
+Modules/textio.o	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^Modules\/textio.o: $(srcdir)\/Modules\/_io\/textio.c; $(CC) $(PY_BUILTIN_MODULE_CFLAGS)  -DPy_BU/;"	t
+Modules/time$(EXT_SUFFIX)	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^Modules\/time$(EXT_SUFFIX):  Modules\/timemodule.o; $(BLDSHARED)  Modules\/timemodule.o   -o Mod/;"	t
+Modules/timemodule.o	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^Modules\/timemodule.o: $(srcdir)\/Modules\/timemodule.c; $(CC) $(PY_BUILTIN_MODULE_CFLAGS)  -DPy/;"	t
+Modules/xxsubtype$(EXT_SUFFIX)	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^Modules\/xxsubtype$(EXT_SUFFIX):  Modules\/xxsubtype.o; $(BLDSHARED)  Modules\/xxsubtype.o   -o /;"	t
+Modules/xxsubtype.o	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^Modules\/xxsubtype.o: $(srcdir)\/Modules\/xxsubtype.c; $(CC) $(PY_BUILTIN_MODULE_CFLAGS)  -c $(s/;"	t
+NO_AS_NEEDED	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^NO_AS_NEEDED=	-Wl,--no-as-needed$/;"	m
+OBJECT_OBJS	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^OBJECT_OBJS=	\\$/;"	m
+OPENSSL_INCLUDES	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^OPENSSL_INCLUDES=$/;"	m
+OPENSSL_LDFLAGS	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^OPENSSL_LDFLAGS=$/;"	m
+OPENSSL_LIBS	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^OPENSSL_LIBS=-lssl -lcrypto$/;"	m
+OPT	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^OPT=		-DNDEBUG -g  -O3 -Wall$/;"	m
+OTHER_LIBTOOL_OPT	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^OTHER_LIBTOOL_OPT=$/;"	m
+Objects/bytearrayobject.o	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^Objects\/bytearrayobject.o: $(srcdir)\/Objects\/bytearrayobject.c $(BYTESTR_DEPS)$/;"	t
+Objects/bytes_methods.o	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^Objects\/bytes_methods.o: $(srcdir)\/Objects\/bytes_methods.c $(BYTESTR_DEPS)$/;"	t
+Objects/bytesobject.o	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^Objects\/bytesobject.o: $(srcdir)\/Objects\/bytesobject.c $(BYTESTR_DEPS)$/;"	t
+Objects/dictobject.o	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^Objects\/dictobject.o: $(srcdir)\/Objects\/stringlib\/eq.h $(srcdir)\/Objects\/dict-common.h$/;"	t
+Objects/odictobject.o	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^Objects\/odictobject.o: $(srcdir)\/Objects\/dict-common.h$/;"	t
+Objects/setobject.o	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^Objects\/setobject.o: $(srcdir)\/Objects\/stringlib\/eq.h$/;"	t
+Objects/typeobject.o	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^Objects\/typeobject.o: Objects\/typeslots.inc$/;"	t
+Objects/unicodectype.o	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^Objects\/unicodectype.o:	$(srcdir)\/Objects\/unicodectype.c \\$/;"	t
+Objects/unicodeobject.o	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^Objects\/unicodeobject.o: $(srcdir)\/Objects\/unicodeobject.c $(UNICODE_DEPS)$/;"	t
+PARSER_HEADERS	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^PARSER_HEADERS= \\$/;"	m
+PARSER_OBJS	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^PARSER_OBJS=	$(POBJS) $(PEGEN_OBJS) Parser\/myreadline.o Parser\/parsetok.o Parser\/tokenizer.o$/;"	m
+PDFSurface_Type	rootfs/usr/lib/python3.9/site-packages/cairo/include/py3cairo.h	/^  PyTypeObject *PDFSurface_Type;$/;"	m	struct:__anon61a8008b0b08	typeref:typename:PyTypeObject *
+PEGEN_HEADERS	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^PEGEN_HEADERS= \\$/;"	m
+PEGEN_OBJS	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^PEGEN_OBJS=		\\$/;"	m
+PGO_PROF_GEN_FLAG	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^PGO_PROF_GEN_FLAG=-fprofile-generate$/;"	m
+PGO_PROF_USE_FLAG	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^PGO_PROF_USE_FLAG=-fprofile-use -fprofile-correction$/;"	m
+PLATLIBDIR	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^PLATLIBDIR=	lib$/;"	m
+POBJS	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^POBJS=		\\$/;"	m
+PROFILE_TASK	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^PROFILE_TASK=	-m test --pgo$/;"	m
+PSSurface_Type	rootfs/usr/lib/python3.9/site-packages/cairo/include/py3cairo.h	/^  PyTypeObject *PSSurface_Type;$/;"	m	struct:__anon61a8008b0b08	typeref:typename:PyTypeObject *
+PTHREAD_KEY_T_IS_COMPATIBLE_WITH_INT	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define PTHREAD_KEY_T_IS_COMPATIBLE_WITH_INT /;"	d
+PY3LIBRARY	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^PY3LIBRARY=     libpython3.so$/;"	m
+PYTHON	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^PYTHON=		python$(EXE)$/;"	m
+PYTHONFRAMEWORK	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^PYTHONFRAMEWORK=	$/;"	m
+PYTHONFRAMEWORKDIR	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^PYTHONFRAMEWORKDIR=	no-framework$/;"	m
+PYTHONFRAMEWORKINSTALLDIR	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^PYTHONFRAMEWORKINSTALLDIR= $/;"	m
+PYTHONFRAMEWORKPREFIX	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^PYTHONFRAMEWORKPREFIX=	$/;"	m
+PYTHONPATH	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^PYTHONPATH=$(COREPYTHONPATH)$/;"	m
+PYTHON_FOR_BUILD	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^PYTHON_FOR_BUILD=_PYTHON_PROJECT_BASE=$(abs_builddir) _PYTHON_HOST_PLATFORM=$(_PYTHON_HOST_PLATF/;"	m
+PYTHON_FOR_REGEN	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^PYTHON_FOR_REGEN?=python3.9$/;"	m
+PYTHON_HEADERS	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^PYTHON_HEADERS= \\$/;"	m
+PYTHON_OBJS	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^PYTHON_OBJS=	\\$/;"	m
+PY_BUILTIN_HASHLIB_HASHES	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define PY_BUILTIN_HASHLIB_HASHES /;"	d
+PY_BUILTIN_MODULE_CFLAGS	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^PY_BUILTIN_MODULE_CFLAGS= $(PY_STDMODULE_CFLAGS) -DPy_BUILD_CORE_BUILTIN$/;"	m
+PY_CFLAGS	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^PY_CFLAGS=	$(BASECFLAGS) $(OPT) $(CONFIGURE_CFLAGS) $(CFLAGS) $(EXTRA_CFLAGS)$/;"	m
+PY_CFLAGS_NODIST	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^PY_CFLAGS_NODIST=$(CONFIGURE_CFLAGS_NODIST) $(CFLAGS_NODIST) -I$(srcdir)\/Include\/internal$/;"	m
+PY_COERCE_C_LOCALE	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define PY_COERCE_C_LOCALE /;"	d
+PY_CORE_CFLAGS	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^PY_CORE_CFLAGS=	$(PY_STDMODULE_CFLAGS) -DPy_BUILD_CORE$/;"	m
+PY_CORE_LDFLAGS	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^PY_CORE_LDFLAGS=$(PY_LDFLAGS) $(PY_LDFLAGS_NODIST)$/;"	m
+PY_CPPFLAGS	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^PY_CPPFLAGS=	$(BASECPPFLAGS) -I. -I$(srcdir)\/Include $(CONFIGURE_CPPFLAGS) $(CPPFLAGS)$/;"	m
+PY_FORMAT_SIZE_T	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define PY_FORMAT_SIZE_T /;"	d
+PY_LDFLAGS	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^PY_LDFLAGS=	$(CONFIGURE_LDFLAGS) $(LDFLAGS)$/;"	m
+PY_LDFLAGS_NODIST	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^PY_LDFLAGS_NODIST=$(CONFIGURE_LDFLAGS_NODIST) $(LDFLAGS_NODIST)$/;"	m
+PY_SSL_DEFAULT_CIPHERS	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define PY_SSL_DEFAULT_CIPHERS /;"	d
+PY_STDMODULE_CFLAGS	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^PY_STDMODULE_CFLAGS= $(PY_CFLAGS) $(PY_CFLAGS_NODIST) $(PY_CPPFLAGS) $(CFLAGSFORSHARED)$/;"	m
+Parser/parsetok.o	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^Python\/compile.o Python\/symtable.o Python\/ast_unparse.o Python\/ast.o Python\/future.o Parser/;"	t
+Path_FromPath	rootfs/usr/lib/python3.9/site-packages/cairo/include/py3cairo.h	/^  PyObject *(*Path_FromPath)(cairo_path_t *path);$/;"	m	struct:__anon61a8008b0b08	typeref:typename:PyObject * (*)(cairo_path_t * path)
+Path_Type	rootfs/usr/lib/python3.9/site-packages/cairo/include/py3cairo.h	/^  PyTypeObject *Path_Type;$/;"	m	struct:__anon61a8008b0b08	typeref:typename:PyTypeObject *
+Pattern_FromPattern	rootfs/usr/lib/python3.9/site-packages/cairo/include/py3cairo.h	/^  PyObject *(*Pattern_FromPattern)(cairo_pattern_t *pattern, PyObject *base);$/;"	m	struct:__anon61a8008b0b08	typeref:typename:PyObject * (*)(cairo_pattern_t * pattern,PyObject * base)
+Pattern_Type	rootfs/usr/lib/python3.9/site-packages/cairo/include/py3cairo.h	/^  PyTypeObject *Pattern_Type;$/;"	m	struct:__anon61a8008b0b08	typeref:typename:PyTypeObject *
+Programs/_freeze_importlib	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^Programs\/_freeze_importlib: Programs\/_freeze_importlib.o $(LIBRARY_OBJS_OMIT_FROZEN)$/;"	t
+Programs/_freeze_importlib.o	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^Programs\/_freeze_importlib.o: Programs\/_freeze_importlib.c Makefile$/;"	t
+Programs/_testembed	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^Programs\/_testembed: Programs\/_testembed.o $(LIBRARY) $(LDLIBRARY) $(PY3LIBRARY) $(EXPORTSYMS)$/;"	t
+Programs/_testembed.o	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^Programs\/_testembed.o: $(srcdir)\/Programs\/_testembed.c$/;"	t
+Programs/python.o	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^$(LIBRARY_OBJS) $(MODOBJS) Programs\/python.o: $(PYTHON_HEADERS)$/;"	t
+Programs/python.o	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^Programs\/python.o: $(srcdir)\/Programs\/python.c$/;"	t
+Py_ENABLE_SHARED	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define Py_ENABLE_SHARED /;"	d
+Py_PYCONFIG_H	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define Py_PYCONFIG_H$/;"	d
+PycairoContext	rootfs/usr/lib/python3.9/site-packages/cairo/include/py3cairo.h	/^} PycairoContext;$/;"	t	typeref:struct:__anon61a8008b0108
+PycairoContext_FromContext	rootfs/usr/lib/python3.9/site-packages/cairo/include/py3cairo.h	/^#define PycairoContext_FromContext /;"	d
+PycairoContext_GET	rootfs/usr/lib/python3.9/site-packages/cairo/include/py3cairo.h	/^#define PycairoContext_GET(/;"	d
+PycairoContext_Type	rootfs/usr/lib/python3.9/site-packages/cairo/include/py3cairo.h	/^#define PycairoContext_Type /;"	d
+PycairoFontFace	rootfs/usr/lib/python3.9/site-packages/cairo/include/py3cairo.h	/^} PycairoFontFace;$/;"	t	typeref:struct:__anon61a8008b0208
+PycairoFontFace_FromFontFace	rootfs/usr/lib/python3.9/site-packages/cairo/include/py3cairo.h	/^#define PycairoFontFace_FromFontFace /;"	d
+PycairoFontFace_Type	rootfs/usr/lib/python3.9/site-packages/cairo/include/py3cairo.h	/^#define PycairoFontFace_Type /;"	d
+PycairoFontOptions	rootfs/usr/lib/python3.9/site-packages/cairo/include/py3cairo.h	/^} PycairoFontOptions;$/;"	t	typeref:struct:__anon61a8008b0308
+PycairoFontOptions_FromFontOptions	rootfs/usr/lib/python3.9/site-packages/cairo/include/py3cairo.h	/^#define PycairoFontOptions_FromFontOptions /;"	d
+PycairoFontOptions_Type	rootfs/usr/lib/python3.9/site-packages/cairo/include/py3cairo.h	/^#define PycairoFontOptions_Type /;"	d
+PycairoGradient	rootfs/usr/lib/python3.9/site-packages/cairo/include/py3cairo.h	/^#define PycairoGradient /;"	d
+PycairoGradient_Type	rootfs/usr/lib/python3.9/site-packages/cairo/include/py3cairo.h	/^#define PycairoGradient_Type /;"	d
+PycairoImageSurface	rootfs/usr/lib/python3.9/site-packages/cairo/include/py3cairo.h	/^#define PycairoImageSurface /;"	d
+PycairoImageSurface_Type	rootfs/usr/lib/python3.9/site-packages/cairo/include/py3cairo.h	/^#define PycairoImageSurface_Type /;"	d
+PycairoLinearGradient	rootfs/usr/lib/python3.9/site-packages/cairo/include/py3cairo.h	/^#define PycairoLinearGradient /;"	d
+PycairoLinearGradient_Type	rootfs/usr/lib/python3.9/site-packages/cairo/include/py3cairo.h	/^#define PycairoLinearGradient_Type /;"	d
+PycairoMatrix	rootfs/usr/lib/python3.9/site-packages/cairo/include/py3cairo.h	/^} PycairoMatrix;$/;"	t	typeref:struct:__anon61a8008b0408
+PycairoMatrix_FromMatrix	rootfs/usr/lib/python3.9/site-packages/cairo/include/py3cairo.h	/^#define PycairoMatrix_FromMatrix /;"	d
+PycairoMatrix_Type	rootfs/usr/lib/python3.9/site-packages/cairo/include/py3cairo.h	/^#define PycairoMatrix_Type /;"	d
+PycairoPDFSurface	rootfs/usr/lib/python3.9/site-packages/cairo/include/py3cairo.h	/^#define PycairoPDFSurface /;"	d
+PycairoPDFSurface_Type	rootfs/usr/lib/python3.9/site-packages/cairo/include/py3cairo.h	/^#define PycairoPDFSurface_Type /;"	d
+PycairoPSSurface	rootfs/usr/lib/python3.9/site-packages/cairo/include/py3cairo.h	/^#define PycairoPSSurface /;"	d
+PycairoPSSurface_Type	rootfs/usr/lib/python3.9/site-packages/cairo/include/py3cairo.h	/^#define PycairoPSSurface_Type /;"	d
+PycairoPath	rootfs/usr/lib/python3.9/site-packages/cairo/include/py3cairo.h	/^} PycairoPath;$/;"	t	typeref:struct:__anon61a8008b0508
+PycairoPath_FromPath	rootfs/usr/lib/python3.9/site-packages/cairo/include/py3cairo.h	/^#define PycairoPath_FromPath /;"	d
+PycairoPath_Type	rootfs/usr/lib/python3.9/site-packages/cairo/include/py3cairo.h	/^#define PycairoPath_Type /;"	d
+PycairoPattern	rootfs/usr/lib/python3.9/site-packages/cairo/include/py3cairo.h	/^} PycairoPattern;$/;"	t	typeref:struct:__anon61a8008b0608
+PycairoPattern_FromPattern	rootfs/usr/lib/python3.9/site-packages/cairo/include/py3cairo.h	/^#define PycairoPattern_FromPattern /;"	d
+PycairoPattern_Type	rootfs/usr/lib/python3.9/site-packages/cairo/include/py3cairo.h	/^#define PycairoPattern_Type /;"	d
+PycairoRadialGradient	rootfs/usr/lib/python3.9/site-packages/cairo/include/py3cairo.h	/^#define PycairoRadialGradient /;"	d
+PycairoRadialGradient_Type	rootfs/usr/lib/python3.9/site-packages/cairo/include/py3cairo.h	/^#define PycairoRadialGradient_Type /;"	d
+PycairoRecordingSurface	rootfs/usr/lib/python3.9/site-packages/cairo/include/py3cairo.h	/^#define PycairoRecordingSurface /;"	d
+PycairoRecordingSurface_Type	rootfs/usr/lib/python3.9/site-packages/cairo/include/py3cairo.h	/^#define PycairoRecordingSurface_Type /;"	d
+PycairoRectangleInt	rootfs/usr/lib/python3.9/site-packages/cairo/include/py3cairo.h	/^} PycairoRectangleInt;$/;"	t	typeref:struct:__anon61a8008b0708
+PycairoRectangleInt_FromRectangleInt	rootfs/usr/lib/python3.9/site-packages/cairo/include/py3cairo.h	/^#define PycairoRectangleInt_FromRectangleInt /;"	d
+PycairoRectangleInt_Type	rootfs/usr/lib/python3.9/site-packages/cairo/include/py3cairo.h	/^#define PycairoRectangleInt_Type /;"	d
+PycairoRegion	rootfs/usr/lib/python3.9/site-packages/cairo/include/py3cairo.h	/^} PycairoRegion;$/;"	t	typeref:struct:__anon61a8008b0808
+PycairoRegion_FromRegion	rootfs/usr/lib/python3.9/site-packages/cairo/include/py3cairo.h	/^#define PycairoRegion_FromRegion /;"	d
+PycairoRegion_Type	rootfs/usr/lib/python3.9/site-packages/cairo/include/py3cairo.h	/^#define PycairoRegion_Type /;"	d
+PycairoSVGSurface	rootfs/usr/lib/python3.9/site-packages/cairo/include/py3cairo.h	/^#define PycairoSVGSurface /;"	d
+PycairoSVGSurface_Type	rootfs/usr/lib/python3.9/site-packages/cairo/include/py3cairo.h	/^#define PycairoSVGSurface_Type /;"	d
+PycairoScaledFont	rootfs/usr/lib/python3.9/site-packages/cairo/include/py3cairo.h	/^} PycairoScaledFont;$/;"	t	typeref:struct:__anon61a8008b0908
+PycairoScaledFont_FromScaledFont	rootfs/usr/lib/python3.9/site-packages/cairo/include/py3cairo.h	/^#define PycairoScaledFont_FromScaledFont /;"	d
+PycairoScaledFont_Type	rootfs/usr/lib/python3.9/site-packages/cairo/include/py3cairo.h	/^#define PycairoScaledFont_Type /;"	d
+PycairoSolidPattern	rootfs/usr/lib/python3.9/site-packages/cairo/include/py3cairo.h	/^#define PycairoSolidPattern /;"	d
+PycairoSolidPattern_Type	rootfs/usr/lib/python3.9/site-packages/cairo/include/py3cairo.h	/^#define PycairoSolidPattern_Type /;"	d
+PycairoSurface	rootfs/usr/lib/python3.9/site-packages/cairo/include/py3cairo.h	/^} PycairoSurface;$/;"	t	typeref:struct:__anon61a8008b0a08
+PycairoSurfacePattern	rootfs/usr/lib/python3.9/site-packages/cairo/include/py3cairo.h	/^#define PycairoSurfacePattern /;"	d
+PycairoSurfacePattern_Type	rootfs/usr/lib/python3.9/site-packages/cairo/include/py3cairo.h	/^#define PycairoSurfacePattern_Type /;"	d
+PycairoSurface_FromSurface	rootfs/usr/lib/python3.9/site-packages/cairo/include/py3cairo.h	/^#define PycairoSurface_FromSurface /;"	d
+PycairoSurface_Type	rootfs/usr/lib/python3.9/site-packages/cairo/include/py3cairo.h	/^#define PycairoSurface_Type /;"	d
+PycairoToyFontFace	rootfs/usr/lib/python3.9/site-packages/cairo/include/py3cairo.h	/^#define PycairoToyFontFace /;"	d
+PycairoToyFontFace_Type	rootfs/usr/lib/python3.9/site-packages/cairo/include/py3cairo.h	/^#define PycairoToyFontFace_Type /;"	d
+PycairoWin32PrintingSurface	rootfs/usr/lib/python3.9/site-packages/cairo/include/py3cairo.h	/^#define PycairoWin32PrintingSurface /;"	d
+PycairoWin32PrintingSurface_Type	rootfs/usr/lib/python3.9/site-packages/cairo/include/py3cairo.h	/^#define PycairoWin32PrintingSurface_Type /;"	d
+PycairoWin32Surface	rootfs/usr/lib/python3.9/site-packages/cairo/include/py3cairo.h	/^#define PycairoWin32Surface /;"	d
+PycairoWin32Surface_Type	rootfs/usr/lib/python3.9/site-packages/cairo/include/py3cairo.h	/^#define PycairoWin32Surface_Type /;"	d
+PycairoXCBSurface	rootfs/usr/lib/python3.9/site-packages/cairo/include/py3cairo.h	/^#define PycairoXCBSurface /;"	d
+PycairoXCBSurface_Type	rootfs/usr/lib/python3.9/site-packages/cairo/include/py3cairo.h	/^#define PycairoXCBSurface_Type /;"	d
+PycairoXlibSurface	rootfs/usr/lib/python3.9/site-packages/cairo/include/py3cairo.h	/^#define PycairoXlibSurface /;"	d
+PycairoXlibSurface_Type	rootfs/usr/lib/python3.9/site-packages/cairo/include/py3cairo.h	/^#define PycairoXlibSurface_Type /;"	d
+Pycairo_CAPI	rootfs/usr/lib/python3.9/site-packages/cairo/include/py3cairo.h	/^Pycairo_CAPI_t *Pycairo_CAPI;$/;"	v	typeref:typename:Pycairo_CAPI_t *
+Pycairo_CAPI_t	rootfs/usr/lib/python3.9/site-packages/cairo/include/py3cairo.h	/^} Pycairo_CAPI_t;$/;"	t	typeref:struct:__anon61a8008b0b08
+Pycairo_Check_Status	rootfs/usr/lib/python3.9/site-packages/cairo/include/py3cairo.h	/^#define Pycairo_Check_Status /;"	d
+Python/ast.o	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^Python\/compile.o Python\/symtable.o Python\/ast_unparse.o Python\/ast.o Python\/future.o Parser/;"	t
+Python/ast_unparse.o	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^Python\/compile.o Python\/symtable.o Python\/ast_unparse.o Python\/ast.o Python\/future.o Parser/;"	t
+Python/ceval.o	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^Python\/ceval.o: $(srcdir)\/Include\/pydtrace.h$/;"	t
+Python/ceval.o	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^Python\/ceval.o: $(srcdir)\/Python\/opcode_targets.h $(srcdir)\/Python\/ceval_gil.h \\$/;"	t
+Python/compile.o	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^Python\/compile.o Python\/symtable.o Python\/ast_unparse.o Python\/ast.o Python\/future.o Parser/;"	t
+Python/dtoa.o	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^Python\/dtoa.o: Python\/dtoa.c$/;"	t
+Python/dynload_hpux.o	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^Python\/dynload_hpux.o: $(srcdir)\/Python\/dynload_hpux.c Makefile$/;"	t
+Python/dynload_shlib.o	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^Python\/dynload_shlib.o: $(srcdir)\/Python\/dynload_shlib.c Makefile$/;"	t
+Python/frozen.o	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^Python\/frozen.o: $(srcdir)\/Python\/importlib.h $(srcdir)\/Python\/importlib_external.h \\$/;"	t
+Python/future.o	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^Python\/compile.o Python\/symtable.o Python\/ast_unparse.o Python\/ast.o Python\/future.o Parser/;"	t
+Python/getplatform.o	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^Python\/getplatform.o: $(srcdir)\/Python\/getplatform.c$/;"	t
+Python/import.o	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^Python\/import.o: $(srcdir)\/Include\/pydtrace.h$/;"	t
+Python/importdl.o	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^Python\/importdl.o: $(srcdir)\/Python\/importdl.c$/;"	t
+Python/initconfig.o	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^Python\/initconfig.o: $(srcdir)\/Python\/initconfig.c$/;"	t
+Python/pydtrace.o	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^Python\/pydtrace.o: $(srcdir)\/Include\/pydtrace.d $(DTRACE_DEPS)$/;"	t
+Python/symtable.o	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^Python\/compile.o Python\/symtable.o Python\/ast_unparse.o Python\/ast.o Python\/future.o Parser/;"	t
+Python/sysmodule.o	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^Python\/sysmodule.o: $(srcdir)\/Python\/sysmodule.c Makefile $(srcdir)\/Include\/pydtrace.h$/;"	t
+Python/thread.o	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^Python\/thread.o:  $(srcdir)\/Python\/thread_nt.h $(srcdir)\/Python\/thread_pthread.h $(srcdir)\//;"	t
+QUICKTESTOPTS	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^QUICKTESTOPTS=	$(TESTOPTS) -x test_subprocess test_io test_lib2to3 \\$/;"	m
+READELF	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^READELF=	aarch64-poky-linux-readelf$/;"	m
+RESSRCDIR	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^RESSRCDIR=Mac\/Resources\/framework$/;"	m
+RETSIGTYPE	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define RETSIGTYPE /;"	d
+RUNSHARED	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^RUNSHARED=       $/;"	m
+RadialGradient_Type	rootfs/usr/lib/python3.9/site-packages/cairo/include/py3cairo.h	/^  PyTypeObject *RadialGradient_Type;$/;"	m	struct:__anon61a8008b0b08	typeref:typename:PyTypeObject *
+RecordingSurface_Type	rootfs/usr/lib/python3.9/site-packages/cairo/include/py3cairo.h	/^  PyTypeObject *RecordingSurface_Type;$/;"	m	struct:__anon61a8008b0b08	typeref:typename:PyTypeObject *
+RectangleInt_FromRectangleInt	rootfs/usr/lib/python3.9/site-packages/cairo/include/py3cairo.h	/^  PyObject *(*RectangleInt_FromRectangleInt)($/;"	m	struct:__anon61a8008b0b08	typeref:typename:PyObject * (*)(const cairo_rectangle_int_t * rectangle_int)
+RectangleInt_Type	rootfs/usr/lib/python3.9/site-packages/cairo/include/py3cairo.h	/^  PyTypeObject *RectangleInt_Type;$/;"	m	struct:__anon61a8008b0b08	typeref:typename:PyTypeObject *
+Region_FromRegion	rootfs/usr/lib/python3.9/site-packages/cairo/include/py3cairo.h	/^  PyObject *(*Region_FromRegion)(cairo_region_t *region);$/;"	m	struct:__anon61a8008b0b08	typeref:typename:PyObject * (*)(cairo_region_t * region)
+Region_Type	rootfs/usr/lib/python3.9/site-packages/cairo/include/py3cairo.h	/^  PyTypeObject *Region_Type;$/;"	m	struct:__anon61a8008b0b08	typeref:typename:PyTypeObject *
+SCRIPTDIR	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^SCRIPTDIR=	$(prefix)\/$(PLATLIBDIR)$/;"	m
+SGI_ABI	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^SGI_ABI=	@SGI_ABI@$/;"	m
+SHELL	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^SHELL=		\/bin\/sh$/;"	m
+SHLIBS	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^SHLIBS=		$(LIBS)$/;"	m
+SHLIB_SUFFIX	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^SHLIB_SUFFIX=	.so$/;"	m
+SHM_NEEDS_LIBRT	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define SHM_NEEDS_LIBRT /;"	d
+SITEPATH	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^SITEPATH=$/;"	m
+SIZEOF_DOUBLE	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define SIZEOF_DOUBLE /;"	d
+SIZEOF_FLOAT	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define SIZEOF_FLOAT /;"	d
+SIZEOF_FPOS_T	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define SIZEOF_FPOS_T /;"	d
+SIZEOF_INT	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define SIZEOF_INT /;"	d
+SIZEOF_LONG	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define SIZEOF_LONG /;"	d
+SIZEOF_LONG_DOUBLE	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define SIZEOF_LONG_DOUBLE /;"	d
+SIZEOF_LONG_LONG	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define SIZEOF_LONG_LONG /;"	d
+SIZEOF_OFF_T	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define SIZEOF_OFF_T /;"	d
+SIZEOF_PID_T	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define SIZEOF_PID_T /;"	d
+SIZEOF_PTHREAD_KEY_T	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define SIZEOF_PTHREAD_KEY_T /;"	d
+SIZEOF_PTHREAD_T	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define SIZEOF_PTHREAD_T /;"	d
+SIZEOF_SHORT	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define SIZEOF_SHORT /;"	d
+SIZEOF_SIZE_T	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define SIZEOF_SIZE_T /;"	d
+SIZEOF_TIME_T	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define SIZEOF_TIME_T /;"	d
+SIZEOF_UINTPTR_T	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define SIZEOF_UINTPTR_T /;"	d
+SIZEOF_VOID_P	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define SIZEOF_VOID_P /;"	d
+SIZEOF_WCHAR_T	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define SIZEOF_WCHAR_T /;"	d
+SIZEOF__BOOL	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define SIZEOF__BOOL /;"	d
+SOABI	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^SOABI=		cpython-39-aarch64-linux-gnu$/;"	m
+SRCDIRS	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^SRCDIRS= 	Parser Parser\/pegen Objects Python Modules Modules\/_io Programs$/;"	m
+SRC_GDB_HOOKS	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^SRC_GDB_HOOKS=$(srcdir)\/Tools\/gdb\/libpython.py$/;"	m
+STDC_HEADERS	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define STDC_HEADERS /;"	d
+STRICT_SYSV_CURSES	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define STRICT_SYSV_CURSES /;"	d
+STRIPFLAG	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^STRIPFLAG=-s$/;"	m
+SUBDIRSTOO	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^SUBDIRSTOO=	Include Lib Misc$/;"	m
+SVGSurface_Type	rootfs/usr/lib/python3.9/site-packages/cairo/include/py3cairo.h	/^  PyTypeObject *SVGSurface_Type;$/;"	m	struct:__anon61a8008b0b08	typeref:typename:PyTypeObject *
+SYSLIBS	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^SYSLIBS=	$(LIBM) $(LIBC)$/;"	m
+SYS_SELECT_WITH_SYS_TIME	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define SYS_SELECT_WITH_SYS_TIME /;"	d
+ScaledFont_FromScaledFont	rootfs/usr/lib/python3.9/site-packages/cairo/include/py3cairo.h	/^  PyObject *(*ScaledFont_FromScaledFont)(cairo_scaled_font_t *scaled_font);$/;"	m	struct:__anon61a8008b0b08	typeref:typename:PyObject * (*)(cairo_scaled_font_t * scaled_font)
+ScaledFont_Type	rootfs/usr/lib/python3.9/site-packages/cairo/include/py3cairo.h	/^  PyTypeObject *ScaledFont_Type;$/;"	m	struct:__anon61a8008b0b08	typeref:typename:PyTypeObject *
+SolidPattern_Type	rootfs/usr/lib/python3.9/site-packages/cairo/include/py3cairo.h	/^  PyTypeObject *SolidPattern_Type;$/;"	m	struct:__anon61a8008b0b08	typeref:typename:PyTypeObject *
+SurfacePattern_Type	rootfs/usr/lib/python3.9/site-packages/cairo/include/py3cairo.h	/^  PyTypeObject *SurfacePattern_Type;$/;"	m	struct:__anon61a8008b0b08	typeref:typename:PyTypeObject *
+Surface_FromSurface	rootfs/usr/lib/python3.9/site-packages/cairo/include/py3cairo.h	/^  PyObject *(*Surface_FromSurface)(cairo_surface_t *surface, PyObject *base);$/;"	m	struct:__anon61a8008b0b08	typeref:typename:PyObject * (*)(cairo_surface_t * surface,PyObject * base)
+Surface_Type	rootfs/usr/lib/python3.9/site-packages/cairo/include/py3cairo.h	/^  PyTypeObject *Surface_Type;$/;"	m	struct:__anon61a8008b0b08	typeref:typename:PyTypeObject *
+TAGS	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^TAGS::$/;"	t
+TCLTK_INCLUDES	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^TCLTK_INCLUDES=	$/;"	m
+TCLTK_LIBS	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^TCLTK_LIBS=	$/;"	m
+TESTOPTS	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^TESTOPTS=	$(EXTRATESTOPTS)$/;"	m
+TESTPATH	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^TESTPATH=$/;"	m
+TESTPYTHON	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^TESTPYTHON=	$(RUNSHARED) .\/$(BUILDPYTHON) $(TESTPYTHONOPTS)$/;"	m
+TESTRUNNER	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^TESTRUNNER=	$(TESTPYTHON) $(srcdir)\/Tools\/scripts\/run_tests.py$/;"	m
+TESTTIMEOUT	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^TESTTIMEOUT=	1200$/;"	m
+TIME_WITH_SYS_TIME	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define TIME_WITH_SYS_TIME /;"	d
+TZPATH	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^TZPATH=\/usr\/share\/zoneinfo:\/usr\/lib\/zoneinfo:\/usr\/share\/lib\/zoneinfo:\/etc\/zoneinfo$/;"	m
+ToyFontFace_Type	rootfs/usr/lib/python3.9/site-packages/cairo/include/py3cairo.h	/^  PyTypeObject *ToyFontFace_Type;$/;"	m	struct:__anon61a8008b0b08	typeref:typename:PyTypeObject *
+UNICODE_DEPS	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^UNICODE_DEPS = \\$/;"	m
+UNIVERSALSDK	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^UNIVERSALSDK=$/;"	m
+UPDATE_FILE	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^UPDATE_FILE=python3.9 $(srcdir)\/Tools\/scripts\/update_file.py$/;"	m
+VERSION	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^VERSION=	3.9$/;"	m
+VPATH	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^VPATH=		..\/Python-3.9.5$/;"	m
+WINDOW_HAS_FLAGS	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define WINDOW_HAS_FLAGS /;"	d
+WITH_DECIMAL_CONTEXTVAR	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define WITH_DECIMAL_CONTEXTVAR /;"	d
+WITH_DOC_STRINGS	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define WITH_DOC_STRINGS /;"	d
+WITH_PYMALLOC	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define WITH_PYMALLOC /;"	d
+WORDS_BIGENDIAN	rootfs/usr/include/python3.9/pyconfig-64.h	/^#  define WORDS_BIGENDIAN /;"	d
+Win32PrintingSurface_Type	rootfs/usr/lib/python3.9/site-packages/cairo/include/py3cairo.h	/^  PyTypeObject *Win32PrintingSurface_Type;$/;"	m	struct:__anon61a8008b0b08	typeref:typename:PyTypeObject *
+Win32Surface_Type	rootfs/usr/lib/python3.9/site-packages/cairo/include/py3cairo.h	/^  PyTypeObject *Win32Surface_Type;$/;"	m	struct:__anon61a8008b0b08	typeref:typename:PyTypeObject *
+XCBSurface_Type	rootfs/usr/lib/python3.9/site-packages/cairo/include/py3cairo.h	/^  PyTypeObject *XCBSurface_Type;$/;"	m	struct:__anon61a8008b0b08	typeref:typename:PyTypeObject *
+XMLLIBSUBDIRS	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^XMLLIBSUBDIRS=  xml xml\/dom xml\/etree xml\/parsers xml\/sax$/;"	m
+XlibSurface_Type	rootfs/usr/lib/python3.9/site-packages/cairo/include/py3cairo.h	/^  PyTypeObject *XlibSurface_Type;$/;"	m	struct:__anon61a8008b0b08	typeref:typename:PyTypeObject *
+_ALL_SOURCE	rootfs/usr/include/python3.9/pyconfig-64.h	/^# define _ALL_SOURCE /;"	d
+_DARWIN_C_SOURCE	rootfs/usr/include/python3.9/pyconfig-64.h	/^# define _DARWIN_C_SOURCE /;"	d
+_DARWIN_C_SOURCE	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define _DARWIN_C_SOURCE /;"	d
+_FILE_OFFSET_BITS	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define _FILE_OFFSET_BITS /;"	d
+_GNU_SOURCE	rootfs/usr/include/python3.9/pyconfig-64.h	/^# define _GNU_SOURCE /;"	d
+_GNU_SOURCE	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define _GNU_SOURCE /;"	d
+_HPUX_ALT_XOPEN_SOCKET_API	rootfs/usr/include/python3.9/pyconfig-64.h	/^# define _HPUX_ALT_XOPEN_SOCKET_API /;"	d
+_LARGEFILE_SOURCE	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define _LARGEFILE_SOURCE /;"	d
+_NETBSD_SOURCE	rootfs/usr/include/python3.9/pyconfig-64.h	/^# define _NETBSD_SOURCE /;"	d
+_NETBSD_SOURCE	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define _NETBSD_SOURCE /;"	d
+_OPENBSD_SOURCE	rootfs/usr/include/python3.9/pyconfig-64.h	/^# define _OPENBSD_SOURCE /;"	d
+_POSIX_C_SOURCE	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define _POSIX_C_SOURCE /;"	d
+_POSIX_PTHREAD_SEMANTICS	rootfs/usr/include/python3.9/pyconfig-64.h	/^# define _POSIX_PTHREAD_SEMANTICS /;"	d
+_PYCAIRO_H_	rootfs/usr/lib/python3.9/site-packages/cairo/include/py3cairo.h	/^#define _PYCAIRO_H_$/;"	d
+_PYTHONFRAMEWORK	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define _PYTHONFRAMEWORK /;"	d
+_PYTHON_HOST_PLATFORM	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^_PYTHON_HOST_PLATFORM=linux-aarch64$/;"	m
+_PyImport_Inittab	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/config.c	/^struct _inittab _PyImport_Inittab[] = {$/;"	v	typeref:struct:_inittab[]
+_PyImport_Inittab	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/config.c.in	/^struct _inittab _PyImport_Inittab[] = {$/;"	v	typeref:struct:_inittab[]
+_REENTRANT	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define _REENTRANT /;"	d
+_TANDEM_SOURCE	rootfs/usr/include/python3.9/pyconfig-64.h	/^# define _TANDEM_SOURCE /;"	d
+_XOPEN_SOURCE	rootfs/usr/include/python3.9/pyconfig-64.h	/^# define _XOPEN_SOURCE /;"	d
+_XOPEN_SOURCE	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define _XOPEN_SOURCE /;"	d
+_XOPEN_SOURCE_EXTENDED	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define _XOPEN_SOURCE_EXTENDED /;"	d
+__BSD_VISIBLE	rootfs/usr/include/python3.9/pyconfig-64.h	/^#define __BSD_VISIBLE /;"	d
+__CHAR_UNSIGNED__	rootfs/usr/include/python3.9/pyconfig-64.h	/^# define __CHAR_UNSIGNED__ /;"	d
+__EXTENSIONS__	rootfs/usr/include/python3.9/pyconfig-64.h	/^# define __EXTENSIONS__ /;"	d
+__STDC_WANT_IEC_60559_ATTRIBS_EXT__	rootfs/usr/include/python3.9/pyconfig-64.h	/^# define __STDC_WANT_IEC_60559_ATTRIBS_EXT__ /;"	d
+__STDC_WANT_IEC_60559_BFP_EXT__	rootfs/usr/include/python3.9/pyconfig-64.h	/^# define __STDC_WANT_IEC_60559_BFP_EXT__ /;"	d
+__STDC_WANT_IEC_60559_DFP_EXT__	rootfs/usr/include/python3.9/pyconfig-64.h	/^# define __STDC_WANT_IEC_60559_DFP_EXT__ /;"	d
+__STDC_WANT_IEC_60559_FUNCS_EXT__	rootfs/usr/include/python3.9/pyconfig-64.h	/^# define __STDC_WANT_IEC_60559_FUNCS_EXT__ /;"	d
+__STDC_WANT_IEC_60559_TYPES_EXT__	rootfs/usr/include/python3.9/pyconfig-64.h	/^# define __STDC_WANT_IEC_60559_TYPES_EXT__ /;"	d
+__STDC_WANT_LIB_EXT2__	rootfs/usr/include/python3.9/pyconfig-64.h	/^# define __STDC_WANT_LIB_EXT2__ /;"	d
+__STDC_WANT_MATH_SPEC_FUNCS__	rootfs/usr/include/python3.9/pyconfig-64.h	/^# define __STDC_WANT_MATH_SPEC_FUNCS__ /;"	d
+__anon61a8008b0108	rootfs/usr/lib/python3.9/site-packages/cairo/include/py3cairo.h	/^typedef struct {$/;"	s
+__anon61a8008b0208	rootfs/usr/lib/python3.9/site-packages/cairo/include/py3cairo.h	/^typedef struct {$/;"	s
+__anon61a8008b0308	rootfs/usr/lib/python3.9/site-packages/cairo/include/py3cairo.h	/^typedef struct {$/;"	s
+__anon61a8008b0408	rootfs/usr/lib/python3.9/site-packages/cairo/include/py3cairo.h	/^typedef struct {$/;"	s
+__anon61a8008b0508	rootfs/usr/lib/python3.9/site-packages/cairo/include/py3cairo.h	/^typedef struct {$/;"	s
+__anon61a8008b0608	rootfs/usr/lib/python3.9/site-packages/cairo/include/py3cairo.h	/^typedef struct {$/;"	s
+__anon61a8008b0708	rootfs/usr/lib/python3.9/site-packages/cairo/include/py3cairo.h	/^typedef struct {$/;"	s
+__anon61a8008b0808	rootfs/usr/lib/python3.9/site-packages/cairo/include/py3cairo.h	/^typedef struct {$/;"	s
+__anon61a8008b0908	rootfs/usr/lib/python3.9/site-packages/cairo/include/py3cairo.h	/^typedef struct {$/;"	s
+__anon61a8008b0a08	rootfs/usr/lib/python3.9/site-packages/cairo/include/py3cairo.h	/^typedef struct {$/;"	s
+__anon61a8008b0b08	rootfs/usr/lib/python3.9/site-packages/cairo/include/py3cairo.h	/^typedef struct {$/;"	s
+a53_opp_table	symlinks/imx8mm.dtsi	/^	a53_opp_table: opp-table {$/;"	l
+abs_builddir	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^abs_builddir=	\/python3\/3.9.5-r0\/build$/;"	m
+abs_srcdir	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^abs_srcdir=	\/python3\/3.9.5-r0\/build\/..\/Python-3.9.5$/;"	m
+aips1	symlinks/imx8mm.dtsi	/^		aips1: bus@30000000 {$/;"	l
+aips2	symlinks/imx8mm.dtsi	/^		aips2: bus@30400000 {$/;"	l
+aips3	symlinks/imx8mm.dtsi	/^		aips3: bus@30800000 {$/;"	l
+aips4	symlinks/imx8mm.dtsi	/^		aips4: bus@32c00000 {$/;"	l
+all	plant-hello-world/Makefile	/^all: main.c$/;"	t
+all	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^all:		build_all$/;"	t
+altbininstall	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^altbininstall: $(BUILDPYTHON) $/;"	t
+altinstall	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^altinstall: commoninstall$/;"	t
+altmaninstall	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^altmaninstall:$/;"	t
+anatop	symlinks/imx8mm.dtsi	/^			anatop: anatop@30360000 {$/;"	l	label:aips1
+autoconf	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^autoconf:$/;"	t
+base	rootfs/usr/lib/python3.9/site-packages/cairo/include/py3cairo.h	/^  PyObject *base; \/* base object used to create context, or NULL *\/$/;"	m	struct:__anon61a8008b0108	typeref:typename:PyObject *
+base	rootfs/usr/lib/python3.9/site-packages/cairo/include/py3cairo.h	/^  PyObject *base; \/* base object used to create pattern, or NULL *\/$/;"	m	struct:__anon61a8008b0608	typeref:typename:PyObject *
+base	rootfs/usr/lib/python3.9/site-packages/cairo/include/py3cairo.h	/^  PyObject *base; \/* base object used to create surface, or NULL *\/$/;"	m	struct:__anon61a8008b0a08	typeref:typename:PyObject *
+bininstall	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^bininstall: altbininstall$/;"	t
+build_all	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^build_all:	check-clean-src $(BUILDPYTHON) oldsharedmods sharedmods gdbhooks \\$/;"	t
+build_all_generate_profile	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^build_all_generate_profile:$/;"	t
+build_all_merge_profile	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^build_all_merge_profile:$/;"	t
+buildbottest	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^buildbottest:	build_all platform$/;"	t
+caam_sm	symlinks/imx8mm.dtsi	/^		caam_sm: caam-sm@100000 {$/;"	l
+caam_snvs	symlinks/imx8mm.dtsi	/^			caam_snvs: caam-snvs@30370000 {$/;"	l	label:aips1
+check-abidump	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^check-abidump: all$/;"	t
+check-clean-src	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^check-clean-src:$/;"	t
+clean	plant-hello-world/Makefile	/^clean:$/;"	t
+clean	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^clean: clean-retain-profile$/;"	t
+clean-retain-profile	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^clean-retain-profile: pycremoval$/;"	t
+cleantest	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^cleantest: build_all$/;"	t
+clinic	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^clinic: check-clean-src $(srcdir)\/Modules\/_blake2\/blake2s_impl.c$/;"	t
+clk	symlinks/imx8mm.dtsi	/^			clk: clock-controller@30380000 {$/;"	l	label:aips1
+clk_ext1	symlinks/imx8mm.dtsi	/^	clk_ext1: clock-ext1 {$/;"	l
+clk_ext2	symlinks/imx8mm.dtsi	/^	clk_ext2: clock-ext2 {$/;"	l
+clk_ext3	symlinks/imx8mm.dtsi	/^	clk_ext3: clock-ext3 {$/;"	l
+clk_ext4	symlinks/imx8mm.dtsi	/^	clk_ext4: clock-ext4 {$/;"	l
+clobber	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^clobber: clean$/;"	t
+commoninstall	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^commoninstall:  check-clean-src  \\$/;"	t
+config.status	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^config.status:	$(srcdir)\/configure$/;"	t
+coverage	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^coverage:$/;"	t
+coverage-lcov	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^coverage-lcov:$/;"	t
+coverage-report	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^coverage-report: regen-grammar regen-token regen-importlib$/;"	t
+cpu_alert0	symlinks/imx8mm.dtsi	/^				cpu_alert0: trip0 {$/;"	l
+cpu_crit0	symlinks/imx8mm.dtsi	/^				cpu_crit0: trip1 {$/;"	l
+cpu_pd_wait	symlinks/imx8mm.dtsi	/^			cpu_pd_wait: cpu-pd-wait {$/;"	l
+cpu_speed_grade	symlinks/imx8mm.dtsi	/^				cpu_speed_grade: speed-grade@10 {$/;"	l	label:aips1.ocotp
+crypto	symlinks/imx8mm.dtsi	/^			crypto: crypto@30900000 {$/;"	l	label:aips3
+csi1_bridge	symlinks/imx8mm.dtsi	/^			csi1_bridge: csi1_bridge@32e20000 {$/;"	l
+ctx	rootfs/usr/lib/python3.9/site-packages/cairo/include/py3cairo.h	/^  cairo_t *ctx;$/;"	m	struct:__anon61a8008b0108	typeref:typename:PyObject_HEAD cairo_t *
+datarootdir	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^datarootdir=    ${prefix}\/share$/;"	m
+ddrc	symlinks/imx8mm.dtsi	/^		ddrc: memory-controller@3d400000 {$/;"	l
+dispmix_clk_en	symlinks/imx8mm.dtsi	/^		dispmix_clk_en: dispmix-clk-en@32e28004 {$/;"	l
+dispmix_gpr	symlinks/imx8mm.dtsi	/^			dispmix_gpr: display-gpr@32e28000 {$/;"	l
+dispmix_mipi_rst	symlinks/imx8mm.dtsi	/^		dispmix_mipi_rst: dispmix-mipi-rst@32e28008 {$/;"	l
+dispmix_pd	symlinks/imx8mm.dtsi	/^		dispmix_pd: dispmix-pd {$/;"	l
+dispmix_sft_rstn	symlinks/imx8mm.dtsi	/^		dispmix_sft_rstn: dispmix-sft-rstn@32e28000 {$/;"	l
+distclean	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^distclean: clobber$/;"	t
+dma_apbh	symlinks/imx8mm.dtsi	/^		dma_apbh: dma-controller@33000000 {$/;"	l
+docclean	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^docclean:$/;"	t
+dsim_from_lcdif	symlinks/imx8mm.dtsi	/^					dsim_from_lcdif: endpoint {$/;"	l	label:aips4.mipi_dsi
+ecspi1	symlinks/imx8mm.dtsi	/^			ecspi1: spi@30820000 {$/;"	l	label:aips3
+ecspi2	symlinks/imx8mm.dtsi	/^			ecspi2: spi@30830000 {$/;"	l	label:aips3
+ecspi3	symlinks/imx8mm.dtsi	/^			ecspi3: spi@30840000 {$/;"	l	label:aips3
+exec_prefix	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^exec_prefix=	\/usr$/;"	m
+fd	plant-hello-world/mpu6050_rawread.c	/^int fd;$/;"	v	typeref:typename:int
+fec1	symlinks/imx8mm.dtsi	/^			fec1: ethernet@30be0000 {$/;"	l	label:aips3
+fec_mac_address	symlinks/imx8mm.dtsi	/^				fec_mac_address: mac-address@640 {$/;"	l	label:aips1.ocotp
+flexspi	symlinks/imx8mm.dtsi	/^			flexspi: spi@30bb0000 {$/;"	l	label:aips3
+font_face	rootfs/usr/lib/python3.9/site-packages/cairo/include/py3cairo.h	/^  cairo_font_face_t *font_face;$/;"	m	struct:__anon61a8008b0208	typeref:typename:PyObject_HEAD cairo_font_face_t *
+font_options	rootfs/usr/lib/python3.9/site-packages/cairo/include/py3cairo.h	/^  cairo_font_options_t *font_options;$/;"	m	struct:__anon61a8008b0308	typeref:typename:PyObject_HEAD cairo_font_options_t *
+frameworkaltinstallunixtools	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^frameworkaltinstallunixtools:$/;"	t
+frameworkinstall	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^frameworkinstall: install$/;"	t
+frameworkinstallapps	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^frameworkinstallapps:$/;"	t
+frameworkinstallextras	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^frameworkinstallextras:$/;"	t
+frameworkinstallframework	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^frameworkinstallframework: frameworkinstallstructure install frameworkinstallmaclib$/;"	t
+frameworkinstallmaclib	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^frameworkinstallmaclib:$/;"	t
+frameworkinstallstructure	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^frameworkinstallstructure:	$(LDLIBRARY)$/;"	t
+frameworkinstallunixtools	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^frameworkinstallunixtools:$/;"	t
+frameworkpythonw	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^frameworkpythonw:$/;"	t
+funny	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^funny:$/;"	t
+gdbhooks	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^gdbhooks: $(BUILDPYTHON)-gdb.py$/;"	t
+gic	symlinks/imx8mm.dtsi	/^		gic: interrupt-controller@38800000 {$/;"	l
+gpio1	symlinks/imx8mm.dtsi	/^			gpio1: gpio@30200000 {$/;"	l	label:aips1
+gpio2	symlinks/imx8mm.dtsi	/^			gpio2: gpio@30210000 {$/;"	l	label:aips1
+gpio3	symlinks/imx8mm.dtsi	/^			gpio3: gpio@30220000 {$/;"	l	label:aips1
+gpio4	symlinks/imx8mm.dtsi	/^			gpio4: gpio@30230000 {$/;"	l	label:aips1
+gpio5	symlinks/imx8mm.dtsi	/^			gpio5: gpio@30240000 {$/;"	l	label:aips1
+gpmi	symlinks/imx8mm.dtsi	/^		gpmi: nand-controller@33002000{$/;"	l
+gpr	symlinks/imx8mm.dtsi	/^			gpr: iomuxc-gpr@30340000 {$/;"	l	label:aips1
+gpu	symlinks/imx8mm.dtsi	/^        gpu: gpu@38000000 {$/;"	l
+gpumix_pd	symlinks/imx8mm.dtsi	/^		gpumix_pd: gpumix-pd {$/;"	l
+hsiomix_pd	symlinks/imx8mm.dtsi	/^		hsiomix_pd: hsiomix-pd {$/;"	l
+i2c1	symlinks/imx8mm.dtsi	/^			i2c1: i2c@30a20000 {$/;"	l	label:aips3
+i2c2	symlinks/imx8mm.dtsi	/^			i2c2: i2c@30a30000 {$/;"	l	label:aips3
+i2c3	symlinks/imx8mm.dtsi	/^			i2c3: i2c@30a40000 {$/;"	l	label:aips3
+i2c4	symlinks/imx8mm.dtsi	/^			i2c4: i2c@30a50000 {$/;"	l	label:aips3
+import_cairo	rootfs/usr/lib/python3.9/site-packages/cairo/include/py3cairo.h	/^import_cairo(void)$/;"	f	typeref:typename:int
+imx8mm_uid	symlinks/imx8mm.dtsi	/^				imx8mm_uid: unique-id@410 {$/;"	l	label:aips1.ocotp
+inclinstall	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^inclinstall:$/;"	t
+install	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^install:  commoninstall bininstall maninstall $/;"	t
+iomuxc	symlinks/imx8mm.dtsi	/^			iomuxc: pinctrl@30330000 {$/;"	l	label:aips1
+irq_sec_vio	symlinks/imx8mm.dtsi	/^			irq_sec_vio: caam_secvio {$/;"	l	label:aips1
+lcdif	symlinks/imx8mm.dtsi	/^			lcdif: lcdif@32e00000 {$/;"	l	label:aips4
+lcdif_disp0	symlinks/imx8mm.dtsi	/^				lcdif_disp0: port@0 {$/;"	l	label:aips4.lcdif
+lcdif_resets	symlinks/imx8mm.dtsi	/^	lcdif_resets: lcdif-resets {$/;"	l
+lcdif_to_dsim	symlinks/imx8mm.dtsi	/^					lcdif_to_dsim: endpoint {$/;"	l	label:aips4.lcdif.lcdif_disp0
+libainstall	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^libainstall:	all python-config$/;"	t
+libinstall	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^libinstall:	build_all $(srcdir)\/Modules\/xxmodule.c$/;"	t
+libpython$(LDVERSION).dll.a	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^$(DLLLIBRARY) libpython$(LDVERSION).dll.a: $(LIBRARY_OBJS)$/;"	t
+libpython$(LDVERSION).dylib	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^libpython$(LDVERSION).dylib: $(LIBRARY_OBJS)$/;"	t
+libpython$(LDVERSION).so	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^libpython$(LDVERSION).so: $(LIBRARY_OBJS) $(DTRACE_OBJS)$/;"	t
+libpython$(VERSION).sl	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^libpython$(VERSION).sl: $(LIBRARY_OBJS)$/;"	t
+libpython3.so	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^libpython3.so:	libpython$(LDVERSION).so$/;"	t
+main	plant-hello-world/main.c	/^int main(int argc, char *argv[]) {$/;"	f	typeref:typename:int
+main	plant-hello-world/mpu6050_rawread.c	/^int main(void)$/;"	f	typeref:typename:int
+main	recipes-examples/helloplant/files/userprog.c	/^int main()$/;"	f	typeref:typename:int
+maninstall	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^maninstall:	altmaninstall$/;"	t
+matrix	rootfs/usr/lib/python3.9/site-packages/cairo/include/py3cairo.h	/^  cairo_matrix_t matrix;$/;"	m	struct:__anon61a8008b0408	typeref:typename:PyObject_HEAD cairo_matrix_t
+micfil	symlinks/imx8mm.dtsi	/^			micfil: micfil@30080000 {$/;"	l	label:aips1
+mipi_csi_1	symlinks/imx8mm.dtsi	/^			mipi_csi_1: mipi_csi@32e30000 {$/;"	l
+mipi_dsi	symlinks/imx8mm.dtsi	/^			mipi_dsi: mipi_dsi@32e10000 {$/;"	l	label:aips4
+mipi_dsi_resets	symlinks/imx8mm.dtsi	/^	mipi_dsi_resets: mipi-dsi-resets {$/;"	l
+mipi_pd	symlinks/imx8mm.dtsi	/^		mipi_pd: mipi-pd {$/;"	l
+mpu6050_init	plant-hello-world/mpu6050_rawread.c	/^void mpu6050_init()$/;"	f	typeref:typename:void
+mpu6050_read	plant-hello-world/mpu6050_rawread.c	/^int mpu6050_read(uint8_t base_addr, char *pBuffer,uint32_t len)$/;"	f	typeref:typename:int
+mpu6050_read_acc	plant-hello-world/mpu6050_rawread.c	/^void mpu6050_read_acc(short int *pBuffer)$/;"	f	typeref:typename:void
+mpu6050_read_gyro	plant-hello-world/mpu6050_rawread.c	/^void mpu6050_read_gyro(short *pBuffer)$/;"	f	typeref:typename:void
+mpu6050_write	plant-hello-world/mpu6050_rawread.c	/^int mpu6050_write(uint8_t addr, uint8_t data)$/;"	f	typeref:typename:int
+mu	symlinks/imx8mm.dtsi	/^			mu: mailbox@30aa0000 {$/;"	l	label:aips3
+multisslcompile	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^multisslcompile: build_all$/;"	t
+multissltest	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^multissltest: build_all$/;"	t
+noc	symlinks/imx8mm.dtsi	/^		noc: interconnect@32700000 {$/;"	l
+noc_opp_table	symlinks/imx8mm.dtsi	/^			noc_opp_table: opp-table {$/;"	l	label:noc
+ocotp	symlinks/imx8mm.dtsi	/^			ocotp: efuse@30350000 {$/;"	l	label:aips1
+oldsharedinstall	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^oldsharedinstall: $(DESTSHARED) $(SHAREDMODS)$/;"	t
+oldsharedmods	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^oldsharedmods: $(SHAREDMODS)$/;"	t
+osc_24m	symlinks/imx8mm.dtsi	/^	osc_24m: clock-osc-24m {$/;"	l
+osc_32k	symlinks/imx8mm.dtsi	/^	osc_32k: clock-osc-32k {$/;"	l
+patchcheck	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^patchcheck: all$/;"	t
+path	rootfs/usr/lib/python3.9/site-packages/cairo/include/py3cairo.h	/^  cairo_path_t *path;$/;"	m	struct:__anon61a8008b0508	typeref:typename:PyObject_HEAD cairo_path_t *
+pattern	rootfs/usr/lib/python3.9/site-packages/cairo/include/py3cairo.h	/^  cairo_pattern_t *pattern;$/;"	m	struct:__anon61a8008b0608	typeref:typename:PyObject_HEAD cairo_pattern_t *
+pcie0	symlinks/imx8mm.dtsi	/^		pcie0: pcie@33800000 {$/;"	l
+pcie0_ep	symlinks/imx8mm.dtsi	/^		pcie0_ep: pcie_ep@33800000 {$/;"	l
+pcie_pd	symlinks/imx8mm.dtsi	/^		pcie_pd: pcie-pd {$/;"	l
+pcie_phy	symlinks/imx8mm.dtsi	/^			pcie_phy: pcie-phy@32f00000 {$/;"	l
+platform	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^platform: $(BUILDPYTHON) pybuilddir.txt$/;"	t
+prefix	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^prefix=		\/usr$/;"	m
+profile-clean-stamp	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^profile-clean-stamp:$/;"	t
+profile-gen-stamp	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^profile-gen-stamp: profile-clean-stamp$/;"	t
+profile-opt	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^profile-opt: profile-run-stamp$/;"	t
+profile-removal	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^profile-removal:$/;"	t
+profile-run-stamp	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^profile-run-stamp:$/;"	t
+pwm1	symlinks/imx8mm.dtsi	/^			pwm1: pwm@30660000 {$/;"	l	label:aips2
+pwm2	symlinks/imx8mm.dtsi	/^			pwm2: pwm@30670000 {$/;"	l	label:aips2
+pwm3	symlinks/imx8mm.dtsi	/^			pwm3: pwm@30680000 {$/;"	l	label:aips2
+pwm4	symlinks/imx8mm.dtsi	/^			pwm4: pwm@30690000 {$/;"	l	label:aips2
+pybuilddir.txt	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^pybuilddir.txt: $(BUILDPYTHON)$/;"	t
+pycremoval	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^pycremoval:$/;"	t
+python-config	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^python-config: $(srcdir)\/Misc\/python-config.in Misc\/python-config.sh$/;"	t
+pythoninfo	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^pythoninfo: build_all$/;"	t
+quicktest	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^quicktest:	all platform$/;"	t
+recheck	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^recheck:$/;"	t
+rectangle_int	rootfs/usr/lib/python3.9/site-packages/cairo/include/py3cairo.h	/^  cairo_rectangle_int_t rectangle_int;$/;"	m	struct:__anon61a8008b0708	typeref:typename:PyObject_HEAD cairo_rectangle_int_t
+regen-abidump	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^regen-abidump: all$/;"	t
+regen-all	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^regen-all: regen-opcode regen-opcode-targets regen-typeslots regen-grammar \\$/;"	t
+regen-ast	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^regen-ast:$/;"	t
+regen-grammar	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^regen-grammar: regen-token$/;"	t
+regen-importlib	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^regen-importlib: Programs\/_freeze_importlib$/;"	t
+regen-keyword	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^regen-keyword:$/;"	t
+regen-opcode	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^regen-opcode:$/;"	t
+regen-opcode-targets	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^regen-opcode-targets:$/;"	t
+regen-pegen	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^regen-pegen:$/;"	t
+regen-pegen-metaparser	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^regen-pegen-metaparser:$/;"	t
+regen-symbol	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^regen-symbol: $(srcdir)\/Include\/graminit.h$/;"	t
+regen-token	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^regen-token:$/;"	t
+regen-typeslots	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^regen-typeslots:$/;"	t
+region	rootfs/usr/lib/python3.9/site-packages/cairo/include/py3cairo.h	/^  cairo_region_t *region;$/;"	m	struct:__anon61a8008b0808	typeref:typename:PyObject_HEAD cairo_region_t *
+reindent	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^reindent:$/;"	t
+resmem	symlinks/imx8mm.dtsi	/^	resmem: reserved-memory {$/;"	l
+rmtestturds	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^rmtestturds:$/;"	t
+run_profile_task	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^run_profile_task:$/;"	t
+sai1	symlinks/imx8mm.dtsi	/^			sai1: sai@30010000 {$/;"	l	label:aips1
+sai2	symlinks/imx8mm.dtsi	/^			sai2: sai@30020000 {$/;"	l	label:aips1
+sai3	symlinks/imx8mm.dtsi	/^			sai3: sai@30030000 {$/;"	l	label:aips1
+sai5	symlinks/imx8mm.dtsi	/^			sai5: sai@30050000 {$/;"	l	label:aips1
+sai6	symlinks/imx8mm.dtsi	/^			sai6: sai@30060000 {$/;"	l	label:aips1
+scaled_font	rootfs/usr/lib/python3.9/site-packages/cairo/include/py3cairo.h	/^  cairo_scaled_font_t *scaled_font;$/;"	m	struct:__anon61a8008b0908	typeref:typename:PyObject_HEAD cairo_scaled_font_t *
+sdma1	symlinks/imx8mm.dtsi	/^			sdma1: dma-controller@30bd0000 {$/;"	l	label:aips3
+sdma2	symlinks/imx8mm.dtsi	/^			sdma2: dma-controller@302c0000 {$/;"	l	label:aips1
+sdma3	symlinks/imx8mm.dtsi	/^			sdma3: dma-controller@302b0000 {$/;"	l	label:aips1
+sec_jr0	symlinks/imx8mm.dtsi	/^				sec_jr0: jr@1000 {$/;"	l	label:aips3.crypto
+sec_jr1	symlinks/imx8mm.dtsi	/^				sec_jr1: jr@2000 {$/;"	l	label:aips3.crypto
+sec_jr2	symlinks/imx8mm.dtsi	/^				sec_jr2: jr@3000 {$/;"	l	label:aips3.crypto
+sharedinstall	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^sharedinstall: sharedmods$/;"	t
+sharedmods	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^sharedmods: $(BUILDPYTHON) pybuilddir.txt Modules\/_math.o$/;"	t
+smelly	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^smelly: all$/;"	t
+snvs	symlinks/imx8mm.dtsi	/^			snvs: snvs@30370000 {$/;"	l	label:aips1
+snvs_pwrkey	symlinks/imx8mm.dtsi	/^				snvs_pwrkey: snvs-powerkey {$/;"	l	label:aips1.snvs
+snvs_rtc	symlinks/imx8mm.dtsi	/^				snvs_rtc: snvs-rtc-lp {$/;"	l	label:aips1.snvs
+spdif1	symlinks/imx8mm.dtsi	/^			spdif1: spdif@30090000 {$/;"	l	label:aips1
+src	symlinks/imx8mm.dtsi	/^			src: reset-controller@30390000 {$/;"	l	label:aips1
+srcdir	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^srcdir=		..\/Python-3.9.5$/;"	m
+surface	rootfs/usr/lib/python3.9/site-packages/cairo/include/py3cairo.h	/^  cairo_surface_t *surface;$/;"	m	struct:__anon61a8008b0a08	typeref:typename:PyObject_HEAD cairo_surface_t *
+system_counter	symlinks/imx8mm.dtsi	/^			system_counter: timer@306a0000 {$/;"	l	label:aips2
+tags	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^tags::$/;"	t
+test	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^test:		all platform$/;"	t
+testall	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^testall:	all platform$/;"	t
+testuniversal	rootfs/usr/lib/python3.9/config-3.9-aarch64-linux-gnu/Makefile	/^testuniversal:	all platform$/;"	t
+tmu	symlinks/imx8mm.dtsi	/^			tmu: tmu@30260000 {$/;"	l	label:aips1
+uart1	symlinks/imx8mm.dtsi	/^			uart1: serial@30860000 {$/;"	l	label:aips3
+uart2	symlinks/imx8mm.dtsi	/^			uart2: serial@30890000 {$/;"	l	label:aips3
+uart3	symlinks/imx8mm.dtsi	/^			uart3: serial@30880000 {$/;"	l	label:aips3
+uart4	symlinks/imx8mm.dtsi	/^			uart4: serial@30a60000 {$/;"	l	label:aips3
+usb_otg1_pd	symlinks/imx8mm.dtsi	/^		usb_otg1_pd: usbotg1-pd {$/;"	l
+usb_otg2_pd	symlinks/imx8mm.dtsi	/^		usb_otg2_pd: usbotg2-pd {$/;"	l
+usbmisc1	symlinks/imx8mm.dtsi	/^			usbmisc1: usbmisc@32e40200 {$/;"	l
+usbmisc2	symlinks/imx8mm.dtsi	/^			usbmisc2: usbmisc@32e50200 {$/;"	l
+usbotg1	symlinks/imx8mm.dtsi	/^			usbotg1: usb@32e40000 {$/;"	l
+usbotg2	symlinks/imx8mm.dtsi	/^			usbotg2: usb@32e50000 {$/;"	l
+usbphynop1	symlinks/imx8mm.dtsi	/^	usbphynop1: usbphynop1 {$/;"	l
+usbphynop2	symlinks/imx8mm.dtsi	/^	usbphynop2: usbphynop2 {$/;"	l
+usdhc1	symlinks/imx8mm.dtsi	/^			usdhc1: mmc@30b40000 {$/;"	l	label:aips3
+usdhc2	symlinks/imx8mm.dtsi	/^			usdhc2: mmc@30b50000 {$/;"	l	label:aips3
+usdhc3	symlinks/imx8mm.dtsi	/^			usdhc3: mmc@30b60000 {$/;"	l	label:aips3
+vpu_g1	symlinks/imx8mm.dtsi	/^	vpu_g1: vpu_g1@38300000 {$/;"	l
+vpu_g1_pd	symlinks/imx8mm.dtsi	/^		vpu_g1_pd: vpug1-pd {$/;"	l
+vpu_g2	symlinks/imx8mm.dtsi	/^	vpu_g2: vpu_g2@38310000 {$/;"	l
+vpu_g2_pd	symlinks/imx8mm.dtsi	/^		vpu_g2_pd: vpug2-pd {$/;"	l
+vpu_h1	symlinks/imx8mm.dtsi	/^	vpu_h1: vpu_h1@38320000 {$/;"	l
+vpu_h1_pd	symlinks/imx8mm.dtsi	/^		vpu_h1_pd: vpuh1-pd {$/;"	l
+vpu_v4l2	symlinks/imx8mm.dtsi	/^	vpu_v4l2: vpu_v4l2 {$/;"	l
+vpumix_pd	symlinks/imx8mm.dtsi	/^		vpumix_pd: vpumix-pd {$/;"	l
+wdog1	symlinks/imx8mm.dtsi	/^			wdog1: watchdog@30280000 {$/;"	l	label:aips1
+wdog2	symlinks/imx8mm.dtsi	/^			wdog2: watchdog@30290000 {$/;"	l	label:aips1
+wdog3	symlinks/imx8mm.dtsi	/^			wdog3: watchdog@302a0000 {$/;"	l	label:aips1

@@ -1,21 +1,28 @@
 # An image is a top-level recipe. It has a description, license and inherits the core-image class.
 DESCRIPTION = "Example image of meta-plant experimental layer."
 
-# Used to save space (run command du-sh tmb/ from build folder before/after to check difference)
+# Used to save space (run command du-sh from build folder before/after to check difference)
 INHERIT += "rm_work"
 
 # No need for splash here
 IMAGE_FEATURES += "ssh-server-openssh"
+IMAGE_FSTYPES += "tar.gz"
+#IMAGE_FSTYPES="wic.bmap  wic.bz2 tar.bz2"
+#IMAGE_FSTYPES_DEBUGFS="tar.gz"
 
 IMAGE_INSTALL = " \
     packagegroup-core-boot \
     packagegroup-core-full-cmdline \
     packagegroup-core-tools-debug \
+    packagegroup-tools-bluetooth \
     ${CORE_IMAGE_EXTRA_INSTALL} \
     mosquitto \ 
     mosquitto-clients \
     nano \
     python3-pip \
+    git \
+    libgpiod \
+    tree \
     "
 
 EXTRA_IMAGE_FEATURES = " \

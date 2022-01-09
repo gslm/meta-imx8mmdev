@@ -40,7 +40,7 @@
 	(plant-hello-world) */
 	"PLANT": {
 		/* Target Device Settings */
-		"TARGET_IP":"192.168.0.115",
+		"TARGET_IP":"192.168.0.110",
 
 		/* Project Settings */
 		"PROGRAM":"hello.bin",
